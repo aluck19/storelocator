@@ -7,7 +7,7 @@
 	$brandCount = 0;
 
 	while ($data = mysqli_fetch_assoc($result)) {
-		$brandName[$index] = $data["name"];
+		$brandName[$index] = ucwords($data["name"]);
 		$index++;
 		$brandCount++;
 	}
@@ -86,7 +86,6 @@ require_once 'supports/initialize.php';
 	</div>
 
 </div>
-
 
 </body>
 </html>

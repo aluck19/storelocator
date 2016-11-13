@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<head>
+		<title> Form </title>
+		<link type="CSS/Text" rel="stylesheet" href="bootstrap.css"/>
+	</head>
+	<body bgcolor=black>
+		<font color=green>
+		<div class="form-group">
+		<table align=center class=table border=1>
+		<form class=box=shadow>
+			<tr class=active>
+				<td> First Name : </td>
+				<td> <input type=text name=fname size=50 placeholder="Type your first name" maxlength=20 autofocus></td>
+			</tr>
+			<tr class=active>
+				<td> Last Name : </td>
+				<td> <input type=text name=lname size=50 placeholder="Type your last name" maxlength=20></td>
+			</tr>
+			<tr class=success>
+				<td> Password  :</td>
+				<td> <input type=password name=password size=50 placeholder="Password must contain 8 characters"></td>
+			</tr>
+			<tr class=success>
+				<td> Gender : </td>
+				<td> <label><input type=radio name=gender> Male
+					 <label><input type=radio name=gender> Female
+				</td>
+			</tr>
+			<tr class=info>
+				<td> Age : </td>
+				<td> <input type=number min=18 max=35 required step></td>
+			</tr>
+			<tr class=info>
+				<td> Email :</td>
+				<td> <input type=email></td>
+			</tr>
+			<tr class=danger>
+				<td> Description </td>
+				<td> <textarea class=form-control rows=7 cols=50 name=description placeholder="Write here..."></textarea></td>
+			</tr>
+			<tr class=warning>
+				<td> Interests </td>
+				<td> <input type=checkbox name=c1> Football
+					 <input type=checkbox name=c2> Basketball
+					 <input type=checkbox name=c3> Cricket
+				</td>
+			</tr>
+			<tr class=warning>
+				<td> Country : </td>
+				<td> <select type="Combo Box" name=b1>
+					<option> Nepal </option>
+					<option> India </option>
+					<option> Bhutan </option>
+					<option> Pakistan </option>
+					<option> Sri Lanka </option>
+					<option> Afghanistan </option>
+					<option> Maldives </option>
+					<option> Bangladesh </option>
+				</td>
+			</tr>
+			<tr class=danger>
+				<td> Date : </td>
+				<td> <input type=date></td>
+			</tr>
+			<tr class=danger>
+				<td> Time : </td>
+				<td> <input type=time></td>
+			</tr>
+			<tr class=info>
+				<td>Upload Image : </td>
+				<td><input type=file name=img accept=image/*></td>
+			</tr>
+			<tr colspan=2 class=info>
+				<th> <input type=submit name=s1>
+			 <input type=reset name=r1></th>
+			</tr>
+		</font>	
+		</form>
+		</table>
+		</div>
+	</body>
+	</html>

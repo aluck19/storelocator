@@ -1,4 +1,6 @@
-<?php include"database/DB_CONNECT.php";?>
+<?php
+require_once 'supports/initialize.php';
+?>
 <?php 
 	$query  = "SELECT * FROM brand ";
 	$result = mysqli_query($conn, $query);
@@ -19,9 +21,7 @@
 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 
 </head>
-<?php
-require_once 'supports/initialize.php';
-  ?>
+
 <body>
 
 <div class="container">

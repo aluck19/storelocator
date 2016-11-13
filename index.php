@@ -1,3 +1,17 @@
+<?php include"database/DB_CONNECT.php";?>
+<?php 
+	$query  = "SELECT * FROM brand ";
+	$result = mysqli_query($conn, $query);
+
+	$index = 1;
+	$brandCount = 0;
+
+	while ($data = mysqli_fetch_assoc($result)) {
+		$brandName[$index] = $data["name"];
+		$index++;
+		$brandCount++;
+	}
+?>
 <html>
 <head>
 <title> Store Locator </title>
@@ -111,7 +125,7 @@ $districts = Array
 					<td>
 						<select name="brandName" class="form-control">
 						<?php 
-							for ($index; $index != 0; $index--) { 
+							for ($index = 1; $index <= $brandCount; $index++) { 
 							foreach ($brandName as $index => $bName) {?>
 							<option> <?php echo $bName; ?> </option>
 						<?php } 

@@ -59,7 +59,7 @@ require_once 'supports/initialize.php';
 					</select>
 				</td>
 				<tr>
-					<td> Location </td>
+					<td> District </td>
 					<td>
 						<select name="district" class="form-control">
 							<?php
@@ -73,7 +73,7 @@ require_once 'supports/initialize.php';
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2" align="right"> <input type="submit" class="btn btn-primary btn-lg" value="Search" name="submit"> </td>
+					<td colspan="2" align="center"> <input type="submit" class="btn btn-primary btn-sm" value="Search" name="submit"> </td>
 				</tbody>
 			</form>
 		</table>
@@ -198,5 +198,65 @@ function setMarkers(map) {
 
 </div>
 
+<?php 
+	if (isset($_POST["submit"])) { 
+		$brandName = $_POST['brandName'];
+		$district =$_POST['district'];
+
+		$query  = "SELECT * FROM brand ";
+		$query .= "WHERE name =  '{$brandName}' ";	
+		$result = mysqli_query($conn, $query);
+
+		$data = mysqli_fetch_assoc($result);
+		$id = $data['id'];
+
+		$query  = "SELECT * FROM store ";
+		$query .= "WHERE brand_id = '{$id}' ";
+		$query .= "AND district = '{$district}' ";
+		$result = mysqli_query($conn, $query);
+
+		$index = 0;
+		$storeCount = 0;
+
+		while ($data = mysqli_fetch_assoc($result)) {
+			$adrs[$index] = $data["address"];
+			$lndline[$index] = $data["landline"];
+			$mobile[$index] = $data["mobile"];
+			$index++;
+			$storeCount++;
+		}
+?>
+		<div class="container">
+			<h1>
+				<?php echo $_POST["itemName"]?>
+				<?php echo $_POST["brandName"]?>
+				<?php echo $_POST["district"]?>
+			</h1>
+			<div class="row">
+				<div class="col-sm-12">
+					<table class="table table-striped">	
+						<thead>
+							<th>S. No.</th>
+							<th>Address</th>
+							<th>Landline</th>
+							<th>Mobile</th>
+						</thead>
+						<tbody>
+							<?php 	$index = 0;
+									while ($index != $storeCount) { ?>
+							<tr>
+							<td> <?php echo $index; ?></td>
+							<td> <?php echo $adrs[$index]; ?> </td>
+							<td> <?php echo $lndline[$index]; ?> </td>
+							<td> <?php echo $mobile[$index]; ?> </td>
+							</tr>
+							<?php 
+								$index++;
+							} ?>
+						</tbody>
+				</div>
+			</div>
+		</div>		
+<?php } ?>
 </body>
 </html>

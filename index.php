@@ -43,11 +43,13 @@ require_once 'supports/initialize.php';
 					</td>
 				</tr>
 
+
 					<td> Brand </td>
 					<td>
 						<select name="brandName" class="form-control">
 						<?php 
 							for ($index = 1; $index <= $brandCount; $index++) { 
+
 							foreach ($brandName as $index => $bName) {?>
 								<option> <?php echo $bName; ?> </option>
 							<?php }

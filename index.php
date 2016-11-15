@@ -87,11 +87,24 @@ require_once 'supports/initialize.php';
 			<script>
 //				var pos = 0;
 				function initMap() {
-
+					<?php $default_lat = "27.7122249";
+						  $default_long = "85.34251160000001";
+					?>
 
 					var map = new google.maps.Map(document.getElementById('map'), {
-						center: {lat: 27.7122249, lng: 85.34251160000001},
-						zoom: 6
+						center: {lat: <?php if (isset($_POST['submit'])) {
+											$currentDistrict = $_POST['district'];
+											echo $districts_latlng[$currentDistrict]['lat'];
+										} else {
+											echo $default_lat;
+									 	} ?>
+								, lng: <?php if (isset($_POST['submit'])) {
+											echo $districts_latlng[$currentDistrict]['long']; ?> },
+						zoom: 13
+								<?php 	} else {
+											echo $default_long; ?> },
+						zoom: 6 
+								<?php	} ?>
 					});
 //					var infoWindow = new google.maps.InfoWindow({map: map});
 					var pos;
@@ -228,9 +241,11 @@ function setMarkers(map) {
 ?>
 		<div class="container">
 			<h1>
-				<?php echo $_POST["itemName"]?>
-				<?php echo $_POST["brandName"]?>
-				<?php echo $_POST["district"]?>
+				<?php 	
+						echo $_POST["itemName"]; 
+						echo $_POST["brandName"]; 
+					 	echo $_POST["district"]; 
+				?>
 			</h1>
 			<div class="row">
 				<div class="col-sm-12">

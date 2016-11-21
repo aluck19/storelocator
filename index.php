@@ -1,7 +1,7 @@
 <?php
 require_once 'supports/initialize.php';
 ?>
-<?php 
+<?php
 	$query  = "SELECT * FROM brand ";
 	$result = mysqli_query($conn, $query);
 
@@ -14,73 +14,198 @@ require_once 'supports/initialize.php';
 		$brandCount++;
 	}
 ?>
-<html>
-<head>
-<title> Store Locator </title>
-	<link type="Text/CSS" rel="stylesheet" href="layouts/css/bootstrap.min.css"/>
-	<link type="Text/CSS" rel="stylesheet" href="layouts/css/style.css"/>
-<!--	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>-->
 
-</head>
 
-<body>
+<?php
+require_once 'layouts/header_footer/header.php';
+?>
+<body style="
+    border-top: 3px solid #323a45;
+    padding: 20px;
+">
+
 
 <div class="container">
+
+
+
+    <div class="row">
+        <div class="col-sm-4" >
+           <a href="http://localhost/storelocator/index.php"> <h2 style="
+    background: #2980b9;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 6px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+">Store Mapper</h2></a>
+            <br/>
+            <span style="
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: #aba9a9;
+    width: 100%;
+    margin-left: 8%;
+">By TechLekh</span>
+        </div>
+
+        <div class="col-sm-8">
+            <h4>
+                <i class="filter icon large"></i>
+                Filter
+            </h4>
+
+            <div class="ui form" >
+                <form class="form-inline" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+                    <div class="three fields">
+                        <div class="field">
+                            <label>Item</label>
+                            <select name="itemName" class="form-control">
+                                <option> Laptop </option>
+                                <option> Smartphone </option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label>Brand</label>
+                            <select name="brandName" class="form-control">
+                                <?php
+                                for ($index = 1; $index <= $brandCount; $index++) {
+
+                                    foreach ($brandName as $index => $bName) {?>
+                                        <option> <?php echo ucfirst($bName); ?> </option>
+                                    <?php }
+                                }
+                                ?>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label>District</label>
+                            <select name="district" class="form-control">
+                                <?php
+                                for ($index = 0; $index != 75; $index++) {
+                                    foreach ($districts as $index => $dist) {?>
+                                        <option> <?php echo $dist; ?> </option>
+                                    <?php }
+                                }
+                                ?>
+                            </select>
+                        </div>
+                    </div>
+                    <button name="submit"  class="fluid ui linkedin button">
+                        <i class="icon search"></i>
+                         Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
 	<div class="row">
-		<div class="col-sm-4">
-		<table class="table table-hover">
-			<form class="form-inline" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-				<thead>
-				<th colspan="2"> Store Locator </th>
-				</thead>
-				<tbody>
-				<tr>
-					<td>Item</td>
-					<td>
-						<select name="itemName" class="form-control">
-							<option> Laptop </option>
-							<option> Smartphone </option>
-						</select>
-					</td>
-				</tr>
+        <?php
+        if (isset($_POST["submit"])) {
+        $brandName = $_POST['brandName'];
+        $district =$_POST['district'];
+
+        $query  = "SELECT * FROM brand ";
+        $query .= "WHERE name =  '{$brandName}' ";
+        $result = mysqli_query($conn, $query);
+
+        $data = mysqli_fetch_assoc($result);
+        $id = $data['id'];
+
+        $query  = "SELECT * FROM store ";
+        $query .= "WHERE brand_id = '{$id}' ";
+        $query .= "AND district = '{$district}' ";
+        $result = mysqli_query($conn, $query);
+
+        $index = 0;
+        $storeCount = 0;
+
+        while ($data = mysqli_fetch_assoc($result)) {
+            $name[$index] = $data["name"];
+            $adrs[$index] = $data["address"];
+            $lndline[$index] = $data["landline"];
+            $mobile[$index] = $data["mobile"];
+            $index++;
+            $storeCount++;
+        }
+        ?>
 
 
-					<td> Brand </td>
-					<td>
-						<select name="brandName" class="form-control">
-						<?php 
-							for ($index = 1; $index <= $brandCount; $index++) { 
 
-							foreach ($brandName as $index => $bName) {?>
-								<option> <?php echo ucfirst($bName); ?> </option>
-							<?php }
-						}
-						?>
-					</select>
-				</td>
-				<tr>
-					<td> District </td>
-					<td>
-						<select name="district" class="form-control">
-							<?php
-							for ($index = 0; $index != 75; $index++) {
-								foreach ($districts as $index => $dist) {?>
-									<option> <?php echo $dist; ?> </option>
-								<?php }
-							}
-							?>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center"> <input type="submit" class="btn btn-primary btn-sm" value="Search" name="submit"> </td>
-				</tbody>
-			</form>
-		</table>
+        <div class="col-sm-4" style="    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;">
+
+            <h4 style="
+    display: inline-block;
+    float: left;
+"><i class="shop icon large" ></i>Stores</h4>
+	         <div class="ui breadcrumb" style="
+    font-size: 12px;
+    display: inline-block;
+    background: #fff;
+    margin-left: 10px;
+    position: relative;
+    top: -9px;
+    padding: 1px;
+">
+                <div class="active section">
+                    <?php echo $_POST["itemName"];?>
+                </div>
+                <i class="right chevron icon divider"></i>
+                <div class="active section">
+                    <?php echo $_POST["brandName"]; ?>
+                </div>
+                <i class="right chevron icon divider"></i>
+                <div class="active section">
+                    <?php   echo $_POST["district"]; ?>
+                </div>
+            </div>
+
+            <hr style="padding:0;margin:0" />
+
+
+
+            <div class="ui large feed">
+
+                <?php 	$index = 0;
+                while ($index != $storeCount) { ?>
+
+                <div class="event" style="border-bottom: 1px solid #ddd; padding: 10px;">
+                    <div class="content">
+                        <div class="summary">
+                            <a><?php echo $name[$index]; ?></a>
+                        </div>
+                        <div class="extra ">
+                            <?php echo $adrs[$index]; ?>
+                        </div>
+                        <div class="meta" style="font-style: italic;">
+                            <?php echo $lndline[$index]; ?>
+                            <br/>
+                            <?php echo $mobile[$index]; ?>
+                        </div>
+                    </div>
+                </div>
+                    <?php
+                    $index++;
+                } ?>
+
+
+
+            </div>
+            <?php } ?>
 		</div>
 
 		<div class="col-sm-8">
-			<h3>Map</h3>
+			<h4><i class="map icon large"></i>Map</h4>
 			<hr>
 
 			<div id="map"></div>
@@ -103,7 +228,7 @@ require_once 'supports/initialize.php';
 						zoom: 13
 								<?php 	} else {
 											echo $default_long; ?> },
-						zoom: 6 
+						zoom: 6
 								<?php	} ?>
 					});
 //					var infoWindow = new google.maps.InfoWindow({map: map});
@@ -149,11 +274,7 @@ require_once 'supports/initialize.php';
 // order in which these markers should display on top of each other.
 //var beaches = [];
 var beaches = [
-	['Bondi Beach', -33.890542, 151.274856, 4],
-	['Coogee Beach', -33.923036, 151.259052, 5],
-	['Cronulla Beach', -34.028249, 151.157507, 3],
-	['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
-	['Maroubra Beach', -33.950198, 151.259302, 1]
+	['Ocean Computer Pvt. Ltd.', 27.7122, 85.3425, 1]
 ];
 
 function setMarkers(map) {
@@ -209,69 +330,16 @@ function setMarkers(map) {
 		</div>
 	</div>
 
+    <footer>
+
+    <hr>
+       <p style="text-align: center; font"> Made with ... by Sushil and Abhishek.</p>
+    </footer>
+
+
 </div>
 
-<?php 
-	if (isset($_POST["submit"])) { 
-		$brandName = $_POST['brandName'];
-		$district =$_POST['district'];
 
-		$query  = "SELECT * FROM brand ";
-		$query .= "WHERE name =  '{$brandName}' ";	
-		$result = mysqli_query($conn, $query);
-
-		$data = mysqli_fetch_assoc($result);
-		$id = $data['id'];
-
-		$query  = "SELECT * FROM store ";
-		$query .= "WHERE brand_id = '{$id}' ";
-		$query .= "AND district = '{$district}' ";
-		$result = mysqli_query($conn, $query);
-
-		$index = 0;
-		$storeCount = 0;
-
-		while ($data = mysqli_fetch_assoc($result)) {
-			$adrs[$index] = $data["address"];
-			$lndline[$index] = $data["landline"];
-			$mobile[$index] = $data["mobile"];
-			$index++;
-			$storeCount++;
-		}
+<?php
+require_once 'layouts/header_footer/footer.php';
 ?>
-		<div class="container">
-			<h1>
-				<?php 	
-						echo $_POST["itemName"]; 
-						echo $_POST["brandName"]; 
-					 	echo $_POST["district"]; 
-				?>
-			</h1>
-			<div class="row">
-				<div class="col-sm-12">
-					<table class="table table-striped">	
-						<thead>
-							<th>S. No.</th>
-							<th>Address</th>
-							<th>Landline</th>
-							<th>Mobile</th>
-						</thead>
-						<tbody>
-							<?php 	$index = 0;
-									while ($index != $storeCount) { ?>
-							<tr>
-							<td> <?php echo $index; ?></td>
-							<td> <?php echo $adrs[$index]; ?> </td>
-							<td> <?php echo $lndline[$index]; ?> </td>
-							<td> <?php echo $mobile[$index]; ?> </td>
-							</tr>
-							<?php 
-								$index++;
-							} ?>
-						</tbody>
-				</div>
-			</div>
-		</div>		
-<?php } ?>
-</body>
-</html>

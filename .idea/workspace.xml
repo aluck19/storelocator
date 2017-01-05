@@ -2,652 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe89a043-b6e1-4518-8d6f-0a9286bc3df0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/basic/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/basic/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/basic/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/fonts/icons.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/images/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/centered-paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/image-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/image-text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/media-paragraph-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/media-paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/short-paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/square-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/text-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/images/wireframe/white-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/video.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/bootstrap3/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/assets/images/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/gmail/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/round/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/spinning.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_spinning.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/font_awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/header_footer/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/header_footer/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/js/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/js/jquery.address.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/RELEASE-NOTES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/accordion.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/accordion.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/ad.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/ad.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/api.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/breadcrumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/breadcrumb.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/button.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/card.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/card.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/checkbox.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/checkbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/comment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/comment.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dimmer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dimmer.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dimmer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/divider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/divider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dropdown.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/dropdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/feed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/feed.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/flag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/flag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/form.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/form.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/header.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/icon.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/image.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/input.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/input.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/item.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/label.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/label.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/list.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/loader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/loader.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/menu.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/message.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/message.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/modal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/modal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/modal.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/nag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/nag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/nag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/nag.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/popup.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/progress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/progress.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/progress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/rail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/rail.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/rating.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/rating.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/rating.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/reset.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/reveal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/reveal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/search.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/search.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/segment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/segment.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/shape.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/shape.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/shape.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sidebar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sidebar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/site.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/site.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/state.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/statistic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/statistic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/step.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/step.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sticky.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sticky.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/sticky.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/tab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/tab.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/tab.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/transition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/transition.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/transition.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/video.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/visibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/components/visibility.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/semantic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/semantic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/semantic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/semantic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/basic/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/dist/themes/default/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/feed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/feed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/feed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/homepage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/homepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/homepage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/kitchensink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/examples/kitchensink.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/semantic.json.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/breadcrumb.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/breadcrumb.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/grid.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/divider.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/divider.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/flag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/flag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/image.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/image.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/input.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/input.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/label.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/label.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/list.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/list.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/rail.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/rail.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/reveal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/reveal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/segment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/segment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/accordion.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/accordion.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/chatroom.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/chatroom.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/checkbox.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/checkbox.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/dimmer.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/dimmer.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/dropdown.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/dropdown.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/nag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/nag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/popup.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/popup.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/rating.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/rating.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/search.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/search.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/shape.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/shape.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/sidebar.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/sidebar.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/sticky.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/sticky.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/tab.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/tab.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/transition.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/transition.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/modules/video.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/ad.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/ad.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/comment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/comment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/feed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/feed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/item.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/item.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/statistic.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/_site/views/statistic.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/visibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/visit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/collections/breadcrumb.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/collections/form.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/collections/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/collections/menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/collections/message.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/collections/table.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/button.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/flag.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/header.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/icon.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/input.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/label.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/loader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/rail.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/segment.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/elements/step.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/globals/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/globals/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/globals/site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/dimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/dimmer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/modal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/nag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/nag.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/popup.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/progress.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/rating.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/search.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/shape.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/sidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/sticky.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/tab.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/transition.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/modules/video.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/views/ad.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/views/card.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/views/comment.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/views/feed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/views/item.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/definitions/views/statistic.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/semantic.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/theme.config.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/amazon/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/amazon/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/basic/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/bookish/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/bookish/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/bootstrap3/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/modules/accordion.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/modules/accordion.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/views/comment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/chubby/views/comment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/classic/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/breadcrumb.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/breadcrumb.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/grid.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/divider.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/divider.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/flag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/flag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/image.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/image.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/input.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/input.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/label.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/label.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/list.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/list.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/rail.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/rail.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/reveal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/reveal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/segment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/segment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/accordion.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/accordion.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/chatroom.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/chatroom.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/checkbox.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/checkbox.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/dimmer.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/dimmer.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/dropdown.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/dropdown.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/nag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/nag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/popup.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/popup.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/rating.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/rating.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/search.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/search.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/shape.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/shape.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/sidebar.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/sidebar.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/sticky.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/sticky.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/tab.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/tab.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/transition.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/transition.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/video.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/modules/video.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/ad.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/ad.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/comment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/comment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/feed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/feed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/item.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/item.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/statistic.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/default/views/statistic.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/duo/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/duo/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/fixed-width/collections/grid.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/fixed-width/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/fixed-width/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/fixed-width/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/flat/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/flat/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/flat/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/flat/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/elements/segment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/elements/segment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/github/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/gmail/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/material/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/pulsar/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/pulsar/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/raised/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/raised/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/resetcss/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/resetcss/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/round/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/rtl/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/rtl/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/striped/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/striped/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/timeline/views/feed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/timeline/views/feed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/twitter/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/src/themes/twitter/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/components/create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/components/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/components/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/distributions/create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/distributions/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/distributions/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/publish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/admin/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/check-install.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/collections/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/collections/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/collections/internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/github.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/oauth.example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/component-package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/css-package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/less-package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/admin/templates/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/npm/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/project/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/project/install.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/project/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/project/tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/config/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/docs/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/docs/serve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/install.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/rtl/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/rtl/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/tasks/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/accordion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/rating.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/shape.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/tab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/transition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/fixtures/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/helpers/jasmine-clog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/helpers/jasmine-jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/helpers/jasmine-sinon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/helpers/jquery-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/helpers/sinon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/meteor/assets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/meteor/fonts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/accordion.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/checkbox.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/dropdown.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/modal.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/module.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/popup.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/search.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/shape.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/sidebar.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/tab.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/transition.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/semantic/test/modules/video.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/js/script.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supports/database/DB_CONNECT.php" afterPath="$PROJECT_DIR$/supports/database/DB_CONNECT.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/css/style.css" afterPath="$PROJECT_DIR$/layouts/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/header_footer/footer.php" afterPath="$PROJECT_DIR$/layouts/header_footer/footer.php" />
     </list>
     <ignored path="storeLocator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -672,23 +32,34 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="276" column="53" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
+            <state relative-caret-position="-2057">
+              <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-                <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-                <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+                <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+                <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+                <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+                <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/header_footer/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -696,8 +67,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/header_footer/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="-33">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -714,10 +85,12 @@
         <option value="$PROJECT_DIR$/support/districts.php" />
         <option value="$PROJECT_DIR$/database/DB_CONNECT.php" />
         <option value="$PROJECT_DIR$/supports/initialize.php" />
-        <option value="$PROJECT_DIR$/layouts/css/style.css" />
         <option value="$PROJECT_DIR$/supports/database/DB_CONNECT.php" />
         <option value="$PROJECT_DIR$/layouts/semantic/dist/semantic.min.css" />
         <option value="$PROJECT_DIR$/layouts/header_footer/header.php" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/layouts/js/script.js" />
+        <option value="$PROJECT_DIR$/layouts/css/style.css" />
         <option value="$PROJECT_DIR$/layouts/header_footer/footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
@@ -737,6 +110,28 @@
     <option name="y" value="-4" />
     <option name="width" value="1374" />
     <option name="height" value="732" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpPassByRefInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -807,24 +202,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="supports" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -843,7 +220,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="header_footer" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeLocator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storeLocator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -921,26 +316,44 @@
       <workItem from="1479276097815" duration="2010000" />
       <workItem from="1479628430893" duration="5737000" />
       <workItem from="1479703478459" duration="381000" />
-      <workItem from="1479708897851" duration="12057000" />
+      <workItem from="1479708897851" duration="13272000" />
+      <workItem from="1479789784877" duration="182000" />
+      <workItem from="1479797169904" duration="1170000" />
+      <workItem from="1480229584418" duration="594000" />
+      <workItem from="1480906462860" duration="39000" />
+      <workItem from="1480908643460" duration="31000" />
+      <workItem from="1483537781169" duration="6769000" />
+      <workItem from="1483608928059" duration="7517000" />
+      <workItem from="1483623704525" duration="5868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26715000" />
+    <option name="totallyTimeSpent" value="50100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3477306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28696924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28696924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -963,59 +376,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supports/database/db_connect.php">
+    <entry file="file://$PROJECT_DIR$/layouts/header_footer/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/districts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/initialize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/districts_latlang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="460">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1025,19 +397,52 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/header_footer/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/header_footer/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1046,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +479,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/database/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/districts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/initialize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/districts_latlang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1087,19 +535,10 @@
         <state relative-caret-position="2560">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1108,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,19 +583,10 @@
         <state relative-caret-position="2300">
           <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1170,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,19 +610,10 @@
         <state relative-caret-position="2300">
           <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1208,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,38 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/districts_latlang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/districts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/initialize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/semantic/src/_site/views/ad.overrides">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1277,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1000">
           <caret line="529" column="48" selection-start-line="529" selection-start-column="48" selection-end-line="529" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,48 +689,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/header_footer/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supports/database/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../techJagir/sample_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/districts_latlang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/districts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supports/initialize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/semantic/src/definitions/behaviors/visit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="252" column="13" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/header_footer/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="-33">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/header_footer/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="276" column="53" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
+        <state relative-caret-position="-2057">
+          <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#footer#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1479738103899" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3518:3537" placeholder="SELECT * FRO... brand" />
-            <marker date="1479738103899" expanded="true" signature="3732:3751" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3391:3410" placeholder="SELECT * FRO... brand" />
+            <marker date="1483629590336" expanded="true" signature="3624:3643" placeholder="SELECT * FRO... store" />
+            <marker date="1483629590336" expanded="true" signature="5124:5173" placeholder="..." />
           </folding>
         </state>
       </provider>

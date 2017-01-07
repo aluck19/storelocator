@@ -10,7 +10,7 @@ require_once 'supports/initialize.php';
 <?php
 require_once 'layouts/header_footer/header.php';
 ?>
-<body id="bodyWrapper">
+<body id="body_wrapper">
     <div class="container">
         <div class="row">
             <div class="col-sm-4" >
@@ -144,7 +144,7 @@ require_once 'layouts/header_footer/header.php';
                     <div class="event event_stl" >
                         <div class="content">
                             <div class="summary">
-                                <a>
+                                <a class="map_link">
                                     <?php echo $row["name"]; ?>
                                 </a>
                             </div>
@@ -253,16 +253,19 @@ require_once 'layouts/header_footer/header.php';
                         //call to setMarkers
                         setMarkers(map);
 
+
                     } //end==> initMap()
+
 
 
                     // Data for the markers consisting of a name, a LatLng and a zIndex for the
                     // order in which these markers should display on top of each other.
+
                     var stores = <?php
                         if(!empty($json))
-                        print_r($json);
+                            print_r($json);
                         else
-                        echo " '' ;";
+                            echo " '' ;";
 
                         ?>
 
@@ -302,6 +305,12 @@ require_once 'layouts/header_footer/header.php';
                                 zIndex: beach[3]
                             });
                         }
+
+                        google.maps.event.addListener(marker, 'click', (function(marker) {
+                            return function() {
+                                map.panTo(marker.getPosition());
+                            }
+                        })(marker));
                     }
 
 
@@ -321,7 +330,7 @@ require_once 'layouts/header_footer/header.php';
 
         <footer>
         <hr>
-           <p class="tx_ct">
+           <p id="developer_txt" class="tx_ct">
                Made with ... by Sushil and Abhishek.
            </p>
         </footer>

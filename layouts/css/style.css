@@ -12,8 +12,8 @@ html, body {
 }
 
 #body_wrapper {
-    border-top: 3px solid #323a45;
-    padding: 20px;
+    border-top: 5px solid #0e79b1;
+    padding: 20px 0px;
 }
 #store_mapper_logo {
     background: #2980b9;

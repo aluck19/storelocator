@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe89a043-b6e1-4518-8d6f-0a9286bc3df0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/header_footer/footer.php" afterPath="$PROJECT_DIR$/layouts/header_footer/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/css/style.css" afterPath="$PROJECT_DIR$/layouts/css/style.css" />
     </list>
     <ignored path="storeLocator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,13 +28,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="326" column="26" selection-start-line="326" selection-start-column="26" selection-end-line="326" selection-end-column="26" />
+            <state relative-caret-position="289">
+              <caret line="265" column="20" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
               <folding>
-                <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-                <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-                <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-                <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+                <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+                <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+                <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+                <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +43,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="14" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="14" />
+            <state relative-caret-position="-204">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -87,8 +86,8 @@
         <option value="$PROJECT_DIR$/layouts/header_footer/header.php" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/layouts/js/script.js" />
-        <option value="$PROJECT_DIR$/layouts/css/style.css" />
         <option value="$PROJECT_DIR$/layouts/header_footer/footer.php" />
+        <option value="$PROJECT_DIR$/layouts/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -103,9 +102,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="724" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -170,70 +170,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supports" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storeLocator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,18 +258,18 @@
       <workItem from="1483608928059" duration="7517000" />
       <workItem from="1483623704525" duration="8805000" />
       <workItem from="1483695312234" duration="589000" />
-      <workItem from="1483787964314" duration="422000" />
+      <workItem from="1483787964314" duration="2391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54048000" />
+    <option name="totallyTimeSpent" value="56017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="724" extended-state="0" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35944363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -374,10 +310,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -395,10 +331,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -416,10 +352,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -437,10 +373,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -485,10 +421,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -533,10 +469,10 @@
         <state relative-caret-position="2560">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -581,10 +517,10 @@
         <state relative-caret-position="2300">
           <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -608,10 +544,10 @@
         <state relative-caret-position="2300">
           <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -761,21 +697,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="14" />
+        <state relative-caret-position="-204">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="326" column="26" selection-start-line="326" selection-start-column="26" selection-end-line="326" selection-end-column="26" />
+        <state relative-caret-position="289">
+          <caret line="265" column="20" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
           <folding>
-            <marker date="1483632489992" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
-            <marker date="1483632489992" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
-            <marker date="1483632489992" expanded="true" signature="5142:5191" placeholder="..." />
+            <marker date="1483790375723" expanded="true" signature="67:86" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3392:3411" placeholder="SELECT * FRO... brand" />
+            <marker date="1483790375723" expanded="true" signature="3625:3644" placeholder="SELECT * FRO... store" />
+            <marker date="1483790375723" expanded="true" signature="5219:5268" placeholder="..." />
           </folding>
         </state>
       </provider>

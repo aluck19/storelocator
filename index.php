@@ -21,6 +21,12 @@ require_once 'layouts/header_footer/header.php';
                 </a>
                 <br/>
                 <span id="by_techlekh">By TechLekh</span>
+
+                <div id="menu">
+                    <a href="faq.php">FAQ</a>
+                    <a href="contact.php">Contact</a>
+                </div>
+
             </div>
             <!-- end==>col-sm-4 -->
 
@@ -35,33 +41,19 @@ require_once 'layouts/header_footer/header.php';
                         <div class="three fields">
                             <div class="field">
                                 <label>Item</label>
-                                <select name="itemName" class="form-control">
-                                    <option> Laptop </option>
+                                <select onchange="showBrands(this.value)" id="s_itemName" name="itemName" class="form-control" required="">
                                     <option> Smartphone </option>
+                                    <option> Laptop </option>
                                 </select>
                             </div>
                             <div class="field">
                                 <label>Brand</label>
-                                <select name="brandName" class="form-control">
-                                    <?php
-                                    if(mysqli_num_rows($brand) >0 ){
-                                           while($row= mysqli_fetch_assoc($brand)){
-                                                echo '<option>' . ucfirst($row["name"]). '</option>';
-                                           }
-                                    }
-                                    ?>
+                                <select onchange="showDistricts(this.value)" name="brandName" id="s_brandName" class="form-control" required="">
                                 </select>
                             </div>
                             <div class="field">
                                 <label>District</label>
-                                <select name="district" class="form-control">
-                                    <?php
-                                    for ($index = 0; $index != 75; $index++) {
-                                        foreach ($districts as $index => $dist) {?>
-                                            <option> <?php echo $dist; ?> </option>
-                                        <?php }
-                                    }
-                                    ?>
+                                <select name="district" id="s_district" class="form-control" required="">
                                 </select>
                             </div>
                         </div>
@@ -112,7 +104,7 @@ require_once 'layouts/header_footer/header.php';
                   </h4>
 
                 <div class="ui breadcrumb" id="breadcrumb">
-                    <div class="active section">
+                    <div  class="active section">
                         <?php echo $_POST["itemName"]; ?>
                     </div>
 
@@ -142,11 +134,9 @@ require_once 'layouts/header_footer/header.php';
                         ?>
 
                     <div class="event event_stl" >
-                        <div class="content">
+                        <div  class="content bg_al" id="str_desc">
                             <div class="summary">
-                                <a href="javascript:google.maps.event.trigger(gmarkers['<?php echo $row["name"]; ?>'],'click');">
                                     <?php echo $row["name"]; ?>
-                                </a>
                             </div>
                             <div class="extra ">
                                 <?php echo $row["address"]; ?>
@@ -156,8 +146,74 @@ require_once 'layouts/header_footer/header.php';
                                 <br/>
                                 <?php echo $row["mobile"]; ?>
                             </div>
+                            <br/>
+                            <div class="meta">
+                                <?php
+                                if($row["website"]){
+                                    echo "<a  target='_blank' id=\"website\" href=\"#\">". $row["website"] . "</a>";
+                                }
+                                ?>
+
+                            </div>
+                            <br/>
+                            <div class="meta">
+                                <button type="button" id="report"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-store_id="<?php echo $row['id']; ?>"  data-store_name="<?php echo $row['name']; ?>">Report</button>
+                            </div>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+
+                                                <input type="hidden" class="form-control" name="r_store_id" id="r_store_id" required="">
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="control-label">Topic</label>
+                                                    <input type="text" class="form-control" id="r_topic" name="r_topic" id="r_topic" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="control-label">Name</label>
+                                                    <input type="text" class="form-control" id="r_name" name="r_name" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="control-label">Email</label>
+                                                    <input type="text" class="form-control" id="r_email" name="r_email" required="" >
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="message-text" class="control-label">Message</label>
+                                                    <textarea class="form-control" name="r_message" id="r_message" required=""></textarea>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <button type="submit" name="report" id="submit_report" class="btn btn-primary">Report</button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end==> modal -->
+
                         </div>
-                    </div>
+
+                        <div class="content" id="str_info">
+                            <?php
+                            if($row["lat"] && $row["lon"]){
+
+                                echo '<div id=\'mapped\'>
+                                        <a  href="javascript:google.maps.event.trigger(gmarkers[\'' .  $row["name"] .'\'],\'click\');" >
+                                            <img src=\'layouts/img/map_icon.png\'/>
+                                            </a>
+                                        </div>';
+                            }
+                            ?>
+                        </div>
+                        </div>
                      <!-- end==> event -->
                     <?php
                     } //end of while loop
@@ -169,7 +225,13 @@ require_once 'layouts/header_footer/header.php';
 
                 }
 
-                //create stores json for parsing to java scrip
+                ?>
+
+
+
+                <?php
+
+                //create stores json for parsing to javascript
                 $stores = array();
                 foreach ($result as $row) {
                     $stores[] = array(
@@ -184,13 +246,40 @@ require_once 'layouts/header_footer/header.php';
 
                 //php version of required json of stores
                 $json = json_encode($stores);
-                }//
+
+                echo "</div>";
+
+                }//end of isset submit if
+
+
+                else {
+
                 ?>
-              </div>
+                 <div class="col-sm-4 info_block" style="overflow: auto;" id="store_left_bar">
+                     <h4>
+                         <i class="info icon large"></i>
+                         What is Store Mapper?
+                     </h4>
+                     <hr class="mg_z pg_z"/>
+                    <br/>
+                     <p>
+                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                     </p>
+
+                     <p>
+                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                     </p>
+                 </div>
+                 <?php }?>
+
                <!-- end==> col-sm-4 -->
 
 
-		    <div    <?php if (isset($_POST["submit"]) && $result->num_rows > 0 ){ echo " class=\"col-sm-8\""; } ?> >
+		    <div class="col-sm-8" >
 			    <h4>
                     <i class="map icon large"></i>
                     Map
@@ -222,33 +311,12 @@ require_once 'layouts/header_footer/header.php';
                                             } ?>,
                                 lng: <?php if (isset($_POST['submit'])) {
                                                 echo $districts_latlng[$currentDistrict]['long']; ?> },
-                                zoom: 13
+                                zoom: 12
                                     <?php 	} else {
                                                 echo $default_long; ?> },
                                 zoom: 7
                                     <?php	} ?>
                         })
-
-
-
-                        var pos;
-                        // Try HTML5 geolocation.
-                        if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(function(position) {
-                                   pos = {
-                                    lat: position.coords.latitude,
-                                    lng: position.coords.longitude
-                                };
-
-                                console.log(pos);
-
-                            }, function() {
-                                handleLocationError(true, infoWindow, map.getCenter());
-                            });
-                        } else {
-                            // Browser doesn't support Geolocation
-                            handleLocationError(false, infoWindow, map.getCenter());
-                        }
 
                         // Data for the markers consisting of a name, a LatLng and a zIndex for the
                         // order in which these markers should display on top of each other.
@@ -263,7 +331,7 @@ require_once 'layouts/header_footer/header.php';
                         gmarkers = [];
 
                         var infowindow = new google.maps.InfoWindow();
-                    
+
                         // create a Marker
                         function createMarker(latlng, html) {
                             var marker = new google.maps.Marker({
@@ -286,12 +354,6 @@ require_once 'layouts/header_footer/header.php';
 
                     } //end==> initMap()
 
-                    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-                        infoWindow.setPosition(pos);
-                        infoWindow.setContent(browserHasGeolocation ?
-                            'Error: The Geolocation service failed.' :
-                            'Error: Your browser doesn\'t support geolocation.');
-                    }
 
                     </script>
 

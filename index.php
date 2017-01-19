@@ -10,6 +10,28 @@ require_once 'supports/initialize.php';
 <?php
 require_once 'layouts/header_footer/header.php';
 ?>
+
+<script>
+    //on page load: to show relative options in filter
+    $(window).load(function() {
+
+        var item = document.getElementById("s_itemName");
+        var option1 = item.options[item.selectedIndex].value;
+        // console.log(option1);
+        showBrands(option1);
+
+        var brand = document.getElementById("s_brandName");
+        try{
+            var option2 = brand.options[brand.selectedIndex].value;
+            //console.log(option2);
+            showDistricts(option2);
+        }catch (err){
+            console.log("Error");
+        }
+    });
+
+
+</script>
 <body id="body_wrapper">
     <div class="container">
         <div class="row">
@@ -37,7 +59,7 @@ require_once 'layouts/header_footer/header.php';
                 </h4>
 
                 <div class="ui form" >
-                    <form class="form-inline" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+                    <form class="form-inline" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="GET">
                         <div class="three fields">
                             <div class="field">
                                 <label>Item</label>
@@ -57,7 +79,7 @@ require_once 'layouts/header_footer/header.php';
                                 </select>
                             </div>
                         </div>
-                        <button name="submit"  class="fluid ui linkedin button">
+                        <button type="submit"  value="submit"  name="filter" class="fluid ui linkedin button">
                             <i class="icon search"></i>
                              Search
                         </button>
@@ -76,9 +98,9 @@ require_once 'layouts/header_footer/header.php';
 	    <div class="row">
 
             <?php
-            if (isset($_POST["submit"])) {
-            $brandName = $_POST['brandName'];
-            $district = $_POST['district'];
+            if (isset($_GET["filter"])) {
+            $brandName = $_GET['brandName'];
+            $district = $_GET['district'];
 
             $query = "SELECT * FROM brand ";
             $query .= "WHERE name =  '{$brandName}' ";
@@ -105,19 +127,19 @@ require_once 'layouts/header_footer/header.php';
 
                 <div class="ui breadcrumb" id="breadcrumb">
                     <div  class="active section">
-                        <?php echo $_POST["itemName"]; ?>
+                        <?php echo $_GET["itemName"]; ?>
                     </div>
 
                     <i class="right chevron icon divider"></i>
 
                     <div class="active section">
-                        <?php echo $_POST["brandName"]; ?>
+                        <?php echo $_GET["brandName"]; ?>
                     </div>
 
                     <i class="right chevron icon divider"></i>
 
                     <div class="active section">
-                        <?php echo $_POST["district"]; ?>
+                        <?php echo $_GET["district"]; ?>
                     </div>
                 </div>
                  <!-- end==> breadcrumb -->
@@ -165,7 +187,7 @@ require_once 'layouts/header_footer/header.php';
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                                            <h4 class="modal-title" id="exampleModalLabel">Report to</h4>
                                         </div>
                                         <div class="modal-body">
                                             <form>
@@ -280,18 +302,29 @@ require_once 'layouts/header_footer/header.php';
 
 
 		    <div class="col-sm-8" >
-			    <h4>
+			    <h4 class="dp_in_bl">
                     <i class="map icon large"></i>
                     Map
                 </h4>
-			    <hr>
 
+                <hr>
+
+                 <?php if (isset($_GET['filter'])) {?>
+                    <div id="floating-panel">
+                        <input id="autocomplete"  type="text" class="form-control"  placeholder="Enter text here">
+                        <button id="searchButton" type="button">
+                            <span class="glyphicon glyphicon-road" aria-hidden="true"></span> Get Direction
+                        </button>
+                    </div>
+                <?php } ?>
 			    <div id="map">
 
                 </div>
                 <!-- end==> map-->
 
                 <script>
+
+
                     function initMap() {
                         <?php
                             //default lat long
@@ -303,13 +336,13 @@ require_once 'layouts/header_footer/header.php';
                             center: {
 
                                 //get current selected district latlon
-                                lat: <?php if (isset($_POST['submit'])) {
-                                                $currentDistrict = $_POST['district'];
+                                lat: <?php if (isset($_GET['filter'])) {
+                                                $currentDistrict = $_GET['district'];
                                                 echo $districts_latlng[$currentDistrict]['lat'];
                                             } else {
                                                 echo $default_lat;
                                             } ?>,
-                                lng: <?php if (isset($_POST['submit'])) {
+                                lng: <?php if (isset($_GET['filter'])) {
                                                 echo $districts_latlng[$currentDistrict]['long']; ?> },
                                 zoom: 12
                                     <?php 	} else {
@@ -342,6 +375,15 @@ require_once 'layouts/header_footer/header.php';
                             google.maps.event.addListener(marker, 'click', function() {
                                 infowindow.setContent(html);
                                 infowindow.open(map, marker);
+
+                                var lat = marker.getPosition().lat();
+                                var lon = marker.getPosition().lng();
+
+                                //end point for route direction
+                                  end = new google.maps.LatLng(lat, lon);
+
+
+
                             });
                             return marker;
                         }
@@ -352,7 +394,105 @@ require_once 'layouts/header_footer/header.php';
                                 createMarker(new google.maps.LatLng(locations[i][1],locations[i][2]), locations[i][0]);
                         }
 
-                    } //end==> initMap()
+
+                          var geocoder;
+
+                          var autocomplete;
+
+                        function initialize() {
+                                var options = {
+                                    // use types for selecting support type for locations
+                                    //types: ['(regions)'] ,
+                                    componentRestrictions: {country: "np"}
+                                };
+                                var input = document.getElementById('autocomplete');
+                                autocomplete = new google.maps.places.Autocomplete(input, options);
+                                autocomplete.addListener('place_changed', notFoundCondition);
+                            }
+
+                        function  notFoundCondition() {
+                            var place = autocomplete.getPlace();
+                            if (!place.geometry) {
+                                // User entered the name of a Place that was not suggested and
+                                // pressed the Enter key, or the Place Details request failed.
+                                window.alert("No details available for input: '" + place.name + "'");
+                                return;
+                            }
+                        }
+
+                        initialize();
+                        var directionsService = new google.maps.DirectionsService;
+                        var directionsDisplay = new google.maps.DirectionsRenderer;
+
+                        directionsDisplay.setMap(map);
+                        var onChangeHandler = function() {
+                            console.log("onchage handler called");
+
+                            try {
+                                 end;
+                            } catch(err) {
+                                console.log("error");
+                                alert("Select store!");
+                            }
+
+
+                            calculateAndDisplayRoute(directionsService, directionsDisplay);
+                        };
+
+
+                            function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+                                directionsService.route({
+                                    origin: start,
+                                    destination: end,
+                                    travelMode: 'DRIVING'
+                                }, function(response, status) {
+                                    if (status === 'OK') {
+                                        directionsDisplay.setDirections(response);
+                                    } else {
+                                        window.alert('Directions request failed due to ' + status);
+                                    }
+                                });
+                            }
+
+                         $("#searchButton").click(function() {
+
+                                console.log("button clicked");
+
+                                 geocoder = new google.maps.Geocoder();
+                                 var address = document.getElementById("autocomplete").value;
+                                 geocoder.geocode({'address': address, 'region': 'np'}, function (results, status) {
+                                     if (status == google.maps.GeocoderStatus.OK) {
+                                         var inp = results[0].geometry.location;
+
+                                         var lat = results[0].geometry.location.lat();
+                                         var lon = results[0].geometry.location.lng();
+
+                                         console.log(address + " " + lat + " " + lon);
+
+                                         //start point for route direction
+                                         start = new google.maps.LatLng(lat, lon);
+                                         //console.log(end);
+
+
+                                         onChangeHandler();
+
+                                     } else {
+                                         alert("The searched location was not found.");
+                                     }
+                                 });
+
+                         });
+
+
+                    }  //end==> initMap()
+
+
+
+
+
+
+
+
 
 
                     </script>
@@ -363,9 +503,9 @@ require_once 'layouts/header_footer/header.php';
         <!-- end==> row -->
 
         <footer>
-        <hr>
+        <hr style="margin-bottom: 8px;">
            <p id="developer_txt" class="tx_ct">
-               Made with ... by Sushil and Abhishek.
+              Developed by Sushil and Abhishek
            </p>
         </footer>
     </div>

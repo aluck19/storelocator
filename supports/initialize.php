@@ -1,4 +1,3 @@
 <?php
-require_once 'supports/districts.php';
-require_once 'supports/districts_latlang.php';
-include "database/DB_CONNECT.php";
+    require_once 'helpers/districts_latlang.php';
+    include "database/db_connect.php";

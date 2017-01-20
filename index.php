@@ -1,6 +1,5 @@
 <?php
 require_once 'supports/initialize.php';
-
 session_start();
 ?>
 <?php
@@ -82,7 +81,7 @@ require_once 'layouts/header_footer/header.php';
                                 </select>
                             </div>
                         </div>
-                        <button type="submit"  id="filter_button" value="submit"  name="filter" class="fluid ui linkedin button">
+                        <button type="submit"  id="filter_button" value="submit"  class="fluid ui linkedin button">
                             <i class="icon search"></i>
                              Search
                         </button>
@@ -101,6 +100,11 @@ require_once 'layouts/header_footer/header.php';
 	    <div class="row">
 
             <?php
+
+            if(isset( $_GET['brandName']) && isset( $_GET['district']) && isset( $_GET['itemName'])){
+                $_GET["filter"] = "set";
+            }
+
             if (isset($_GET["filter"])) {
             $brandName = $_GET['brandName'];
             $district = $_GET['district'];
@@ -119,6 +123,52 @@ require_once 'layouts/header_footer/header.php';
             $result = mysqli_query($conn, $query);
 
             if ($result->num_rows > 0) {
+                    //start a PHP session
+                    //this prevents spamming the click count by refreshing the page
+                    $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+                    $curPage = mysqli_real_escape_string($conn,htmlspecialchars($actual_link));
+
+                    //echo $curPage;
+                    //get current click count for page from database;
+                    //output error message on failure
+                    if(!$rs = mysqli_query($conn, "SELECT * FROM post_hits WHERE url = '$curPage'")) {
+                        echo "Could not parse click counting query.";
+                    }
+                    //if no record for this page found,
+                    elseif(mysqli_num_rows($rs) == 0) {
+                        //try to create new record and set count for new page to 1;
+                        //output error message if problem encountered
+                        $date = date("Y-m-d H-i-s");
+                       // echo $date;
+
+                        $itemName = $_GET["itemName"];
+
+                        if(!$rs = mysqli_query($conn, "INSERT INTO post_hits (item_name, brand_name, district_name, url, total_hits, last_hit_date) VALUES ('$itemName','$brandName', '$district', '$curPage', 1, '$date')")) {
+                            //echo "INSERT INTO post_hits (item_name, brand_name, district_name, url, total_hits, last_hit_date) VALUES ('$itemName','$brandName', '$district', '$curPage', 1, '$date')";
+                            echo "Could not create new click counter for this page.";
+                        }
+                        else {
+                            $clicks = 1;
+                        }
+                    }
+                    else {
+                        //get number of clicks for page and add 1
+                        $row = mysqli_fetch_assoc($rs);
+                        $clicks = $row['total_hits'] + 1;
+
+                        $date = date("Y-m-d H-i-s");
+                        //update click count in database;
+                        //report error if not updated
+                        if (!$rs = mysqli_query($conn, "UPDATE post_hits SET total_hits = $clicks, last_hit_date = '$date'  WHERE url = '$curPage'")) {
+                            echo "Could not save new click count for this page.";
+                        }
+                    }
+
+
+
+
+
 
 
             ?>

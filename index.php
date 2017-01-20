@@ -106,8 +106,8 @@ require_once 'layouts/header_footer/header.php';
             }
 
             if (isset($_GET["filter"])) {
-            $brandName = $_GET['brandName'];
-            $district = $_GET['district'];
+            $brandName = mysqli_real_escape_string($conn,$_GET['brandName']);
+            $district = mysqli_real_escape_string($conn,$_GET['district']);
 
             $query = "SELECT * FROM brand ";
             $query .= "WHERE name =  '{$brandName}' ";

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe89a043-b6e1-4518-8d6f-0a9286bc3df0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report.php" afterPath="$PROJECT_DIR$/report.php" />
     </list>
     <ignored path="storeLocator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,31 +28,55 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="162" column="151" selection-start-line="162" selection-start-column="151" selection-end-line="162" selection-end-column="151" />
+            <state relative-caret-position="350">
+              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding>
-                <marker date="1484918068276" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
-                <marker date="1484918068276" expanded="true" signature="3662:3681" placeholder="SELECT * FRO... brand" />
-                <marker date="1484918068276" expanded="true" signature="3895:3914" placeholder="SELECT * FRO... store" />
-                <marker date="1484918068276" expanded="true" signature="4640:4686" placeholder="SELECT * FRO... click_count" />
-                <marker date="1484918068276" expanded="true" signature="5253:5365" placeholder="INSERT INTO post_hits... " />
-                <marker date="1484918068276" expanded="true" signature="5253:5416" placeholder="INSERT INTO click_count... " />
-                <marker date="1484918068276" expanded="true" signature="5458:5613" placeholder="INSERT INTO post_hits... " />
-                <marker date="1484918068276" expanded="true" signature="5458:5621" placeholder="INSERT INTO post_hits... " />
-                <marker date="1484918068276" expanded="true" signature="6285:6375" placeholder="UPDATE click... " />
-                <marker date="1484918068276" expanded="true" signature="12397:12439" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12494" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12497" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12515" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12516" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12517" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12619" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12397:12714" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="12535:12619" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="13916:13951" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="14998:15028" placeholder="..." />
-                <marker date="1484918068276" expanded="true" signature="15745:15866" placeholder="{...}" />
-                <marker date="1484918068276" expanded="true" signature="15745:16053" placeholder="{...}" />
+                <marker date="1484918276469" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
+                <marker date="1484918276469" expanded="true" signature="3728:3747" placeholder="SELECT * FRO... brand" />
+                <marker date="1484918276469" expanded="true" signature="3961:3980" placeholder="SELECT * FRO... store" />
+                <marker date="1484918276469" expanded="true" signature="4706:4752" placeholder="SELECT * FRO... click_count" />
+                <marker date="1484918276469" expanded="true" signature="5319:5431" placeholder="INSERT INTO post_hits... " />
+                <marker date="1484918276469" expanded="true" signature="5319:5482" placeholder="INSERT INTO click_count... " />
+                <marker date="1484918276469" expanded="true" signature="5524:5679" placeholder="INSERT INTO post_hits... " />
+                <marker date="1484918276469" expanded="true" signature="5524:5687" placeholder="INSERT INTO post_hits... " />
+                <marker date="1484918276469" expanded="true" signature="6351:6441" placeholder="UPDATE click... " />
+                <marker date="1484918276469" expanded="true" signature="12463:12505" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12560" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12563" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12581" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12582" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12583" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12685" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12463:12780" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="12601:12685" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="13982:14017" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="15064:15094" placeholder="..." />
+                <marker date="1484918276469" expanded="true" signature="15811:15932" placeholder="{...}" />
+                <marker date="1484918276469" expanded="true" signature="15811:16119" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <marker date="1484918786378" expanded="true" signature="437:589" placeholder="INSERT INTO report... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supports/helpers/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding>
+                <marker date="1484885309598" expanded="true" signature="991:992" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -122,7 +146,6 @@
         <option value="$PROJECT_DIR$/supports/helpers/email.php" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/supports/initialize.php" />
-        <option value="$PROJECT_DIR$/report.php" />
         <option value="$PROJECT_DIR$/layouts/css/style.css" />
         <option value="$PROJECT_DIR$/supports/helpers/functions.php" />
         <option value="$PROJECT_DIR$/layouts/header_footer/header.php" />
@@ -130,6 +153,7 @@
         <option value="$PROJECT_DIR$/faq.php" />
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/report.php" />
       </list>
     </option>
   </component>
@@ -343,18 +367,18 @@
       <workItem from="1484825397728" duration="1118000" />
       <workItem from="1484830133760" duration="12000" />
       <workItem from="1484883730764" duration="4449000" />
-      <workItem from="1484913680447" duration="4427000" />
+      <workItem from="1484913680447" duration="5098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128767000" />
+    <option name="totallyTimeSpent" value="129438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="724" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -398,28 +422,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484918068276" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3662:3681" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3895:3914" placeholder="SELECT * FRO... store" />
-            <marker date="1484918068276" expanded="true" signature="4640:4686" placeholder="SELECT * FRO... click_count" />
-            <marker date="1484918068276" expanded="true" signature="5253:5365" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5253:5416" placeholder="INSERT INTO click_count... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5613" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5621" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="6285:6375" placeholder="UPDATE click... " />
-            <marker date="1484918068276" expanded="true" signature="12397:12439" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12494" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12497" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12515" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12516" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12517" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12714" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12535:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="13916:13951" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="14998:15028" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="15745:15866" placeholder="{...}" />
-            <marker date="1484918068276" expanded="true" signature="15745:16053" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3728:3747" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3961:3980" placeholder="SELECT * FRO... store" />
+            <marker date="1484918276469" expanded="true" signature="4706:4752" placeholder="SELECT * FRO... click_count" />
+            <marker date="1484918276469" expanded="true" signature="5319:5431" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5319:5482" placeholder="INSERT INTO click_count... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5679" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5687" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="6351:6441" placeholder="UPDATE click... " />
+            <marker date="1484918276469" expanded="true" signature="12463:12505" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12560" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12563" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12581" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12582" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12583" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12780" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12601:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="13982:14017" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15064:15094" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15811:15932" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="15811:16119" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -458,28 +482,28 @@
         <state relative-caret-position="2560">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
           <folding>
-            <marker date="1484918068276" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3662:3681" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3895:3914" placeholder="SELECT * FRO... store" />
-            <marker date="1484918068276" expanded="true" signature="4640:4686" placeholder="SELECT * FRO... click_count" />
-            <marker date="1484918068276" expanded="true" signature="5253:5365" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5253:5416" placeholder="INSERT INTO click_count... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5613" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5621" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="6285:6375" placeholder="UPDATE click... " />
-            <marker date="1484918068276" expanded="true" signature="12397:12439" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12494" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12497" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12515" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12516" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12517" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12714" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12535:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="13916:13951" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="14998:15028" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="15745:15866" placeholder="{...}" />
-            <marker date="1484918068276" expanded="true" signature="15745:16053" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3728:3747" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3961:3980" placeholder="SELECT * FRO... store" />
+            <marker date="1484918276469" expanded="true" signature="4706:4752" placeholder="SELECT * FRO... click_count" />
+            <marker date="1484918276469" expanded="true" signature="5319:5431" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5319:5482" placeholder="INSERT INTO click_count... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5679" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5687" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="6351:6441" placeholder="UPDATE click... " />
+            <marker date="1484918276469" expanded="true" signature="12463:12505" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12560" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12563" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12581" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12582" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12583" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12780" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12601:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="13982:14017" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15064:15094" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15811:15932" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="15811:16119" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -518,28 +542,28 @@
         <state relative-caret-position="2300">
           <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <marker date="1484918068276" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3662:3681" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3895:3914" placeholder="SELECT * FRO... store" />
-            <marker date="1484918068276" expanded="true" signature="4640:4686" placeholder="SELECT * FRO... click_count" />
-            <marker date="1484918068276" expanded="true" signature="5253:5365" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5253:5416" placeholder="INSERT INTO click_count... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5613" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5621" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="6285:6375" placeholder="UPDATE click... " />
-            <marker date="1484918068276" expanded="true" signature="12397:12439" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12494" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12497" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12515" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12516" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12517" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12714" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12535:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="13916:13951" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="14998:15028" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="15745:15866" placeholder="{...}" />
-            <marker date="1484918068276" expanded="true" signature="15745:16053" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3728:3747" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3961:3980" placeholder="SELECT * FRO... store" />
+            <marker date="1484918276469" expanded="true" signature="4706:4752" placeholder="SELECT * FRO... click_count" />
+            <marker date="1484918276469" expanded="true" signature="5319:5431" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5319:5482" placeholder="INSERT INTO click_count... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5679" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5687" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="6351:6441" placeholder="UPDATE click... " />
+            <marker date="1484918276469" expanded="true" signature="12463:12505" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12560" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12563" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12581" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12582" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12583" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12780" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12601:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="13982:14017" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15064:15094" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15811:15932" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="15811:16119" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -563,28 +587,28 @@
         <state relative-caret-position="2300">
           <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding>
-            <marker date="1484918068276" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3662:3681" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3895:3914" placeholder="SELECT * FRO... store" />
-            <marker date="1484918068276" expanded="true" signature="4640:4686" placeholder="SELECT * FRO... click_count" />
-            <marker date="1484918068276" expanded="true" signature="5253:5365" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5253:5416" placeholder="INSERT INTO click_count... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5613" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5621" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="6285:6375" placeholder="UPDATE click... " />
-            <marker date="1484918068276" expanded="true" signature="12397:12439" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12494" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12497" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12515" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12516" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12517" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12714" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12535:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="13916:13951" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="14998:15028" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="15745:15866" placeholder="{...}" />
-            <marker date="1484918068276" expanded="true" signature="15745:16053" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3728:3747" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3961:3980" placeholder="SELECT * FRO... store" />
+            <marker date="1484918276469" expanded="true" signature="4706:4752" placeholder="SELECT * FRO... click_count" />
+            <marker date="1484918276469" expanded="true" signature="5319:5431" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5319:5482" placeholder="INSERT INTO click_count... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5679" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5687" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="6351:6441" placeholder="UPDATE click... " />
+            <marker date="1484918276469" expanded="true" signature="12463:12505" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12560" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12563" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12581" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12582" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12583" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12780" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12601:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="13982:14017" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15064:15094" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15811:15932" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="15811:16119" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -734,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supports/initialize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -759,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supports/helpers/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -805,33 +815,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/supports/helpers/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <marker date="1484885309598" expanded="true" signature="991:992" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1484918786378" expanded="true" signature="437:589" placeholder="INSERT INTO report... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="162" column="151" selection-start-line="162" selection-start-column="151" selection-end-line="162" selection-end-column="151" />
+        <state relative-caret-position="350">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
-            <marker date="1484918068276" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3662:3681" placeholder="SELECT * FRO... brand" />
-            <marker date="1484918068276" expanded="true" signature="3895:3914" placeholder="SELECT * FRO... store" />
-            <marker date="1484918068276" expanded="true" signature="4640:4686" placeholder="SELECT * FRO... click_count" />
-            <marker date="1484918068276" expanded="true" signature="5253:5365" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5253:5416" placeholder="INSERT INTO click_count... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5613" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="5458:5621" placeholder="INSERT INTO post_hits... " />
-            <marker date="1484918068276" expanded="true" signature="6285:6375" placeholder="UPDATE click... " />
-            <marker date="1484918068276" expanded="true" signature="12397:12439" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12494" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12497" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12515" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12516" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12517" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12397:12714" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="12535:12619" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="13916:13951" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="14998:15028" placeholder="..." />
-            <marker date="1484918068276" expanded="true" signature="15745:15866" placeholder="{...}" />
-            <marker date="1484918068276" expanded="true" signature="15745:16053" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="84:103" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3728:3747" placeholder="SELECT * FRO... brand" />
+            <marker date="1484918276469" expanded="true" signature="3961:3980" placeholder="SELECT * FRO... store" />
+            <marker date="1484918276469" expanded="true" signature="4706:4752" placeholder="SELECT * FRO... click_count" />
+            <marker date="1484918276469" expanded="true" signature="5319:5431" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5319:5482" placeholder="INSERT INTO click_count... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5679" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="5524:5687" placeholder="INSERT INTO post_hits... " />
+            <marker date="1484918276469" expanded="true" signature="6351:6441" placeholder="UPDATE click... " />
+            <marker date="1484918276469" expanded="true" signature="12463:12505" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12560" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12563" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12581" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12582" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12583" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12463:12780" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="12601:12685" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="13982:14017" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15064:15094" placeholder="..." />
+            <marker date="1484918276469" expanded="true" signature="15811:15932" placeholder="{...}" />
+            <marker date="1484918276469" expanded="true" signature="15811:16119" placeholder="{...}" />
           </folding>
         </state>
       </provider>

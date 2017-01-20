@@ -1,5 +1,7 @@
 <?php
 require_once 'supports/initialize.php';
+
+session_start();
 ?>
 <?php
 	$query  = "SELECT * FROM brand ";
@@ -26,14 +28,15 @@ require_once 'layouts/header_footer/header.php';
             //console.log(option2);
             showDistricts(option2);
         }catch (err){
-            console.log("Error");
+            //console.log("Error");
         }
     });
-
-
 </script>
+
 <body id="body_wrapper">
+
     <div class="container">
+
         <div class="row">
             <div class="col-sm-4" >
                 <a href="http://localhost/storelocator/index.php">
@@ -79,7 +82,7 @@ require_once 'layouts/header_footer/header.php';
                                 </select>
                             </div>
                         </div>
-                        <button type="submit"  value="submit"  name="filter" class="fluid ui linkedin button">
+                        <button type="submit"  id="filter_button" value="submit"  name="filter" class="fluid ui linkedin button">
                             <i class="icon search"></i>
                              Search
                         </button>
@@ -116,6 +119,7 @@ require_once 'layouts/header_footer/header.php';
             $result = mysqli_query($conn, $query);
 
             if ($result->num_rows > 0) {
+
 
             ?>
 
@@ -244,15 +248,10 @@ require_once 'layouts/header_footer/header.php';
                 <?php }
                 else {
                   echo "<script> alert('Search not found!'); </script>";
-
                 }
-
                 ?>
 
-
-
                 <?php
-
                 //create stores json for parsing to javascript
                 $stores = array();
                 foreach ($result as $row) {

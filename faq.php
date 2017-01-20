@@ -10,7 +10,29 @@ $brand = mysqli_query($conn, $query);
 <?php
 require_once 'layouts/header_footer/header.php';
 ?>
-    <body id="body_wrapper">
+
+    <script>
+        //on page load: to show relative options in filter
+        $(window).load(function() {
+
+            var item = document.getElementById("s_itemName");
+            var option1 = item.options[item.selectedIndex].value;
+            // console.log(option1);
+            showBrands(option1);
+
+            var brand = document.getElementById("s_brandName");
+            try{
+                var option2 = brand.options[brand.selectedIndex].value;
+                //console.log(option2);
+                showDistricts(option2);
+            }catch (err){
+              //  console.log("Error");
+            }
+        });
+    </script>
+
+
+<body id="body_wrapper">
 <div class="container">
     <div class="row">
         <div class="col-sm-4" >

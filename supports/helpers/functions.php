@@ -1,6 +1,7 @@
 <?php
-function email($to, $reply_to_email, $reply_to_name, $subject, $body){
 
+//email function using PHPmailer
+function email($to, $reply_to_email, $reply_to_name, $subject, $body){
   $mail = new PHPMailer();
   $mail->IsSMTP();
   $mail->CharSet="UTF-8";
@@ -22,10 +23,8 @@ function email($to, $reply_to_email, $reply_to_name, $subject, $body){
   {
     echo "Mailer Error: " . $mail->ErrorInfo;
   }
-  else
-  {
-    echo "Message sent!";
-  }
+  
 }
-//emai ('abhishek.gupta@deerwalk.edu.np', 'techlekhnp@gmail.com', 'StoreMapper: TechLekh', 'Check', 'Checked' );
+//Test for email
+//email('abhishek.gupta@deerwalk.edu.np', 'techlekhnp@gmail.com', 'StoreMapper: TechLekh', 'Check', 'Checked' );
 ?>

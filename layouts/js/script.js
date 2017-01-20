@@ -10,6 +10,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('#r_store_id').val(id);
 });
 
+
 //ajax function:  Report
 $(document).ready(function(){
     $("#submit_report").click(function(){

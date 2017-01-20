@@ -1,19 +1,33 @@
 <html>
 <head>
-<title> Store Locator </title>
-
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Find Stores in Nepal | StoreMapper</title>
+	<?php
+	if (isset($_GET["filter"])) {
+		echo '<title>'. $_GET["brandName"]. ' ' . $_GET["itemName"]. ' Stores in ' . $_GET["district"] .  ', Nepal | StoreKhoj' . '</title> ';
+		echo '<meta content=" ' . $_GET["brandName"] . ' ' . $_GET["itemName"]. ' authorized distributors, stores, retail stores and shops in ' . $_GET["district"] .  ', Nepal' . '" name="description" >';
+		echo '<meta content=" ' . $_GET["brandName"] . ' ' . $_GET["itemName"]. ' distributors, '
+			 . $_GET["brandName"] . ' ' . $_GET["itemName"]. ' stores, '
+			 . $_GET["brandName"] . ' ' . $_GET["itemName"]. ' stores in '
+			. $_GET["district"] .  ', Nepal' . '" name="keywords" >';
+	}else if(basename($_SERVER['PHP_SELF']) == 'faq.php' ){
+		echo '<title>Frequently Asked Questions | StoreKhoj</title>';
+	}
+	else if(basename($_SERVER['PHP_SELF']) == 'contact.php' ){
+		echo '<title>Contacts | StoreKhoj</title>';
+	}
+	else {
+		echo '<title>Find Stores in Nepal | StoreKhoj</title>';
+		echo '<meta content="StoreMapper helps you to find authorized stores and retail stores of gadgets and smartphones in Nepal." name="description" >';
+		echo '<meta content=\'smartphone stores, mobile stores in nepal, laptop stores in nepal, phone store in nepal, stores in nepal\' name=\'keywords\'/>';
+	}
+	?>
 
 	<meta content='noodp,noydir' name='robots'/>
 	<meta content='INDEX, FOLLOW' name='GOOGLEBOT'/>
 	<meta content='TechLekh.com' name='author'/>
-	<meta content="StoreMapper helps you to find authorized stores and retail stores of gadgets and smartphones in Nepal." name="description" >
-	<meta content='smartphone stores, mobile stores in nepal, laptop stores in nepal, phone store in nepal, stores in nepal' name='keywords'/>
-
 
 	<link type="Text/CSS" rel="stylesheet" href="layouts/css/bootstrap.min.css"/>
 

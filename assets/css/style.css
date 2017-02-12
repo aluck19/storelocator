@@ -1,0 +1,229 @@
+
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+#map {
+    height: 80%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#body_wrapper {
+    border-top: 5px solid #0e79b1;
+    /*padding: 20px 0px;*/
+}
+    div#menu {
+
+    }
+    div#menu a {
+        padding: 4px 10px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: lowercase;
+        font-size: 13px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    #mn_faq{
+        background: #5d91b3
+    }
+    #mn_contact {
+        background: #93aec1;
+    }
+    #mn_about {
+        background: #84b4d4;
+    }
+    div#social_media {
+        float: right;
+        width: 172px;
+        height: 40px;
+    }
+div#social_media a {
+    color: #fff;
+    padding: 4px 12px;
+    height: 100%;
+    font-size: 17px;
+    position: relative;
+    top: 4px;
+    margin-left: 7px;
+}
+a#s_facebook {
+    background: #0e79b1;
+}
+a#s_twitter {
+    background: #00e0d6;
+}
+a#s_youtube {
+    background: rgb(247, 63, 63);
+}
+#store_mapper_logo {
+background: #2980b9;
+color: #fff;
+display: inline-block;
+padding: 10px 20px;
+text-transform: uppercase;
+font-size: 18px;
+word-spacing: 6px;
+letter-spacing: 2px;
+}
+
+#store_left_bar{
+    height: 80vh;
+    overflow: auto;
+}
+div#str_info {
+    background: rgb(240, 248, 255);
+    margin: 0;
+    padding: 0;
+    width: 12%;
+}
+#breadcrumb {
+    font-size: 12px;
+    display: inline-block;
+    background: #fff;
+    margin-left: 10px;
+    position: relative;
+    top: -9px;
+    padding: 1px;
+}
+
+.event_stl {
+    padding: 10px;
+}
+div#mapped {
+    width: 30px;
+    padding: 0;
+    margin: 0;
+}
+div#mapped img {
+    width: 26px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.info_block {
+    background: aliceblue;
+    padding: 10px;
+}
+a#website {
+    color: #00b2f3;
+}
+#report {
+    background: #6894ab;
+    color: #fff;
+    padding: 1px 9px 2px;
+    border: 0;
+    border-radius: 7px;
+    font-size: 12px;
+    outline: 0;
+}
+#developer_txt {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    word-spacing: 4px;
+    color: #ababab;
+}
+#exampleModal .modal-content {
+    border: 0;
+    border-radius: 5px;
+}
+div#map_section {
+    position: relative;
+}
+#floating-panel {
+    position: absolute;
+    top: 8px;
+    right: 3%;
+    z-index: 1;
+}
+#searchButton {
+    background: #fff0b9;
+    display: inline-block;
+    padding: 8px 9px;
+    border: 0;
+    border-radius: 4px;
+    z-index: 2;
+    float: right;
+    outline: 0;
+}
+#autocomplete{
+    display: inline-block;
+    width: 250px;
+    float: left;
+    z-index: 1;
+    outline: 0;
+    border-radius: 0;
+    border-right: 0;
+    border-color: #fff0ad;
+    box-shadow: none;
+}
+.modal-body {
+    padding-bottom: 0;
+}
+    .modal-header {
+        background: aliceblue;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+.ui.feed>.event>.content {
+    padding: 5px 10px;
+}
+
+    .nav-tabs { border-bottom: 2px solid #DDD; }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+    .nav-tabs > li > a { border: none; color: #666; }
+    .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
+    .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+    .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+    .tab-pane { padding: 15px 0; }
+    .tab-content{padding:20px}
+
+    .card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }
+
+    #admin_bar {
+        background: #f9f9f9;
+        padding: 7px;
+        margin: 0px;
+        margin-bottom: 17px;
+        border-bottom: 2px solid #eaeaea;
+    }
+    #logout_btn {
+        float: right;
+        background: #5d91b3;
+        color: #fff;
+        padding: 2px 8px;
+        border-radius: 5px
+    }
+.bg_al{
+    background: aliceblue;
+}
+.dp_in_bl {
+    display: inline-block;
+}
+.fl_lf {
+    float: left;
+}
+.mg_z {
+    margin: 0;
+}
+.br_z{
+    border-radius: 0 ;
+}
+.pg_z {
+    padding: 0;
+}
+.fn_it{
+    font-style: italic;
+}
+.tx_ct{
+    text-align: center;
+}
+.ov_at{
+    overflow: auto;
+}
+
+

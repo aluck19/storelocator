@@ -41,6 +41,7 @@ require_once 'assets/layouts/header.php';
                     </h2>
                 </a>
                 <br/>
+               
                 <div id="menu">
                     <a id="mn_faq" href="faq.php"><p>FAQ</p></a>
                     <a id="mn_about" href="about.php"><p>ABOUT</p></a>
@@ -51,8 +52,6 @@ require_once 'assets/layouts/header.php';
             <!-- end==>col-sm-4 -->
 
             <div class="col-sm-8">
-
-                
                 <h4>
                     <i class="filter icon large"></i>
                     Filter
@@ -101,7 +100,7 @@ require_once 'assets/layouts/header.php';
 
             <div class="col-sm-12" id="store_left_bar">
                 <h2 class="dp_in_bl">
-                    Contact
+                    About
                 </h2>
 
 

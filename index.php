@@ -9,31 +9,27 @@ session_start();
 
 
 <?php
-require_once 'layouts/header_footer/header.php';
+require_once 'assets/layouts/header.php';
 ?>
 
-<script>
-    //on page load: to show relative options in filter
-    $(window).load(function() {
-
-        var item = document.getElementById("s_itemName");
-        var option1 = item.options[item.selectedIndex].value;
-        // console.log(option1);
-        showBrands(option1);
-
-        var brand = document.getElementById("s_brandName");
-        try{
-            var option2 = brand.options[brand.selectedIndex].value;
-            //console.log(option2);
-            showDistricts(option2);
-        }catch (err){
-            //console.log("Error");
-        }
-    });
-</script>
-
 <body id="body_wrapper">
+    <div class="container">
+        <div id="site-top">
+            <div class="row">
+                <div id="menu" class="col-sm-8 ">
+                    <a id="mn_faq" href="faq.php"><p>FAQ</p></a>
+                    <a id="mn_about" href="about.php"><p>ABOUT</p></a>
+                    <a id="mn_contact" href="contact.php"><p>CONTACT</p></a>
+                </div>
 
+                <div id="social_media" class="col-sm-4">
+                    <a id="s_facebook" href="#">f</a>
+                    <a id="s_twitter" href="#">t</a>
+                    <a id="s_youtube" href="#">y</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
 
         <div class="row">
@@ -44,49 +40,19 @@ require_once 'layouts/header_footer/header.php';
                     </h2>
                 </a>
                 <br/>
-                <span id="by_techlekh">By TechLekh</span>
 
-                <div id="menu">
-                    <a href="faq.php">FAQ</a>
-                    <a href="contact.php">Contact</a>
-                </div>
+
 
             </div>
             <!-- end==>col-sm-4 -->
 
-            <div class="col-sm-8">
-                <h4>
-                    <i class="filter icon large"></i>
-                    Filter
-                </h4>
+            <div class="right col-sm-8">
 
-                <div class="ui form" >
-                    <form class="form-inline" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="GET">
-                        <div class="three fields">
-                            <div class="field">
-                                <label>Item</label>
-                                <select onchange="showBrands(this.value)" id="s_itemName" name="itemName" class="form-control" required="">
-                                    <option> Smartphone </option>
-                                    <option> Laptop </option>
-                                </select>
-                            </div>
-                            <div class="field">
-                                <label>Brand</label>
-                                <select onchange="showDistricts(this.value)" name="brandName" id="s_brandName" class="form-control" required="">
-                                </select>
-                            </div>
-                            <div class="field">
-                                <label>District</label>
-                                <select name="district" id="s_district" class="form-control" required="">
-                                </select>
-                            </div>
-                        </div>
-                        <button type="submit"  id="filter_button" value="submit"  class="fluid ui linkedin button">
-                            <i class="icon search"></i>
-                             Search
-                        </button>
-                    </form>
-                </div>
+                <a href="#" target="_blank"><img src="assets/img/ad_banner_728x90.png" alt="Header Ad"></a>
+
+
+
+
                 <!-- end==> ui-form-->
              </div>
             <!-- end==> col-sm-8 -->
@@ -94,8 +60,6 @@ require_once 'layouts/header_footer/header.php';
         <!-- end==> row -->
 
          <hr/>
-
-
 
 	    <div class="row">
 
@@ -130,7 +94,7 @@ require_once 'layouts/header_footer/header.php';
                     $curPage = mysqli_real_escape_string($conn,htmlspecialchars($actual_link));
 
                     //echo $curPage;
-                    //get current click count for page from database;
+                    //get current click count for page from push_files;
                     //output error message on failure
                     if(!$rs = mysqli_query($conn, "SELECT * FROM post_hits WHERE url = '$curPage'")) {
                         echo "Could not parse click counting query.";
@@ -158,7 +122,7 @@ require_once 'layouts/header_footer/header.php';
                         $clicks = $row['total_hits'] + 1;
 
                         $date = date("Y-m-d H-i-s");
-                        //update click count in database;
+                        //update click count in push_files;
                         //report error if not updated
                         if (!$rs = mysqli_query($conn, "UPDATE post_hits SET total_hits = $clicks, last_hit_date = '$date'  WHERE url = '$curPage'")) {
                             echo "Could not save new click count for this page.";
@@ -283,7 +247,7 @@ require_once 'layouts/header_footer/header.php';
 
                                 echo '<div id=\'mapped\'>
                                         <a  href="javascript:google.maps.event.trigger(gmarkers[\'' .  $row["name"] .'\'],\'click\');" >
-                                            <img src=\'layouts/img/map_icon.png\'/>
+                                            <img src=\'assets/img/map_icon.png\'/>
                                             </a>
                                         </div>';
                             }
@@ -326,24 +290,34 @@ require_once 'layouts/header_footer/header.php';
                 else {
 
                 ?>
-                 <div class="col-sm-4 info_block" style="overflow: auto;" id="store_left_bar">
-                     <h4>
-                         <i class="info icon large"></i>
-                         What is Store Mapper?
-                     </h4>
-                     <hr class="mg_z pg_z"/>
-                    <br/>
-                     <p>
-                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
-                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
-                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
-                     </p>
+                 <div class="col-sm-4 " >
 
-                     <p>
-                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
-                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
-                         Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
-                     </p>
+                     <div>
+                        <img src="assets/img/ad_banner_300x250.png">
+                     </div>
+
+                     <br/>
+
+                     <div class="info_block" id="store_left_bar" style="overflow: auto;">
+                             <h4>
+                                 <i class="info icon large"></i>
+                                 What is Store Mapper?
+                             </h4>
+                             <hr class="mg_z pg_z"/>
+                            <br/>
+                             <p>
+                                 Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                                 Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                                 Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                             </p>
+
+                             <p>
+                                 Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                                 Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                                 Loreum Ipsum  Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum Loreum Ipsum
+                             </p>
+                         </div>
+
                  </div>
                  <?php }?>
 
@@ -351,24 +325,66 @@ require_once 'layouts/header_footer/header.php';
 
 
 		    <div class="col-sm-8" >
-			    <h4 class="dp_in_bl">
+
+                <h4>
+                    <i class="filter icon large"></i>
+                    Filter
+                </h4>
+
+                <div class="ui form" >
+                    <form class="form-inline" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="GET">
+                        <div class="four fields">
+                            <div class="field" style="padding: 0">
+                                <label>Item</label>
+                                <select style="border-radius: 0;" onchange="showBrands(this.value)" id="s_itemName" name="itemName" class="form-control" required="">
+                                    <option> Smartphone </option>
+                                    <option> Laptop </option>
+                                </select>
+                            </div>
+                            <div class="field" style="padding: 0">
+                                <label>Brand</label>
+                                <select style="border-radius: 0;"  onchange="showDistricts(this.value)" name="brandName" id="s_brandName" class="form-control" required="">
+                                </select>
+                            </div>
+                            <div class="field" style="padding: 0">
+                                <label>District</label>
+                                <select style="border-radius: 0;"  name="district" id="s_district" class="form-control" required="">
+                                </select>
+                            </div>
+                            <div class="field" style="padding: 0;position: relative;top: 21px;" style="border-radius: 0; padding: 11px 0px 13px;">
+                                <button style="border-radius: 0;padding-bottom: 13px;" type="submit"  id="filter_button" value="submit"  class="fluid ui linkedin button">
+                                    <i class="icon search"></i>
+                                    Search
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                
+			    <h4 class="dp_in_bl mg_z">
                     <i class="map icon large"></i>
                     Map
                 </h4>
 
                 <hr>
 
-                 <?php if (isset($_GET['filter'])) {?>
-                    <div id="floating-panel">
-                        <input id="autocomplete"  type="text" class="form-control"  placeholder="Enter text here">
-                        <button id="searchButton" type="button">
-                            <span class="glyphicon glyphicon-road" aria-hidden="true"></span> Get Direction
-                        </button>
-                    </div>
-                <?php } ?>
-			    <div id="map">
+               <div id="map_section">
+                   <?php if (isset($_GET['filter'])) {?>
+                       <div id="floating-panel">
+                           <input id="autocomplete"  type="text" class="form-control"  placeholder="Enter text here">
+                           <button id="searchButton" type="button">
+                               <span class="glyphicon glyphicon-road" aria-hidden="true"></span> Get Direction
+                           </button>
+                       </div>
+                   <?php } ?>
 
-                </div>
+                    <div id="map">
+
+
+
+                    </div>
+                   </div>
                 <!-- end==> map-->
 
                 <script>
@@ -560,5 +576,5 @@ require_once 'layouts/header_footer/header.php';
     </div>
     <!-- end==> body_wrapper -->
 <?php
-require_once 'layouts/header_footer/footer.php';
+require_once 'assets/layouts/footer.php';
 ?>

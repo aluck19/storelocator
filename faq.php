@@ -8,7 +8,7 @@ $brand = mysqli_query($conn, $query);
 
 
 <?php
-require_once 'layouts/header_footer/header.php';
+require_once 'assets/layouts/header.php';
 ?>
 
     <script>
@@ -42,11 +42,10 @@ require_once 'layouts/header_footer/header.php';
                 </h2>
             </a>
             <br/>
-            <span id="by_techlekh">By TechLekh</span>
-
             <div id="menu">
-                <a href="faq.php">FAQ</a>
-                <a href="contact.php">Contact</a>
+                <a id="mn_faq" href="faq.php"><p>FAQ</p></a>
+                <a id="mn_about" href="about.php"><p>ABOUT</p></a>
+                <a id="mn_contact" href="contact.php"><p>CONTACT</p></a>
             </div>
 
         </div>
@@ -161,5 +160,5 @@ require_once 'layouts/header_footer/header.php';
     </div>
     <!-- end==> body_wrapper -->
 <?php
-require_once 'layouts/header_footer/footer.php';
+require_once 'assets/layouts/footer.php';
 ?>

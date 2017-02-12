@@ -27,4 +27,17 @@ function email($to, $reply_to_email, $reply_to_name, $subject, $body){
 }
 //Test for email
 //email('abhishek.gupta@deerwalk.edu.np', 'techlekhnp@gmail.com', 'StoreMapper: TechLekh', 'Check', 'Checked' );
+
+
+function check_logged_in() {
+
+  if(!isset($_SESSION["logged_in"])){
+    redirect("index.php");
+  }
+}
+function redirect($url) {
+  header('Location: '.$url);
+  exit();
+}
+
 ?>

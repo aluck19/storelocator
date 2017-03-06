@@ -35,14 +35,15 @@ if ($result->num_rows > 0) {
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Name</label>';
-        $output .=                                  '<input type="text" class="form-control" id="item_name" value="$row['name']">';
+        $output .=                                  '<input type="text" class="form-control" id="item_name" value="' . $row["name"] . '">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
 
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">DateTime</label>';
-        $output .=                                  '<input type="text" class="form-control" id="datetime" value="$row['datetime']">';
+        $output .=                                  '<input type="text" class="form-control" id="datetime" value="' . $row["datetime"] .'">';
+
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
 

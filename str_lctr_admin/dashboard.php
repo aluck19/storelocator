@@ -57,7 +57,7 @@ require_once '../assets/layouts/admin_header.php';
                 </div>
 
                 <div class="col-sm-6 right">
-                    <a id="logout_btn" href="logout.php">Logouto</a>
+                    <a id="logout_btn" href="logout.php">Logout</a>
                 </div>
 
 

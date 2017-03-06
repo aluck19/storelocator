@@ -28,7 +28,7 @@ if(isset($_POST["i_name"])){
                             <div class="modal-content">
                                  <div class="modal-header">
                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title" id="view_report_modal">Create Item</h4>
+                                            <h4 class="modal-title" id="create_item_modal">Create Item</h4>
                                  </div> <!-- modal-header -->
                     ';
         $output .= '            <div class="modal-body">';

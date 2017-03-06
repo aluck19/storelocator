@@ -3,9 +3,10 @@ require_once '../../supports/initialize.php';
 ?>
 
 <?php
+echo "Hello";
 $q = $_GET['q'];
 
-$sql= "SELECT * FROM report WHERE id = $q";
+$sql= "SELECT * FROM item WHERE id = $q";
 
 $result = mysqli_query($conn,$sql);
 
@@ -13,12 +14,12 @@ if ($result->num_rows > 0) {
     // echo "hello";
     while($row = mysqli_fetch_assoc($result)) {
 
-        $output = '<div class="modal fade" id="view_report_modal" tabindex="-1" role="dialog" aria-labelledby="view_report_modal">';
+        $output = '<div class="modal fade" id="edit_item_modal" tabindex="-1" role="dialog" aria-labelledby="edit_item_modal">';
         $output .= '   <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                  <div class="modal-header">
                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title" id="view_report_modal">View Report</h4>
+                                            <h4 class="modal-title" id="view_report_modal">Edit Item</h4>
                                  </div> <!-- modal-header -->
                     ';
         $output .= '            <div class="modal-body">';
@@ -33,48 +34,17 @@ if ($result->num_rows > 0) {
 
         //repeat form starts
         $output .= '                 <div class="form-group">
-                                            <label for="topic" class="control-label">StoreID</label>';
-        $output .=                                  '<p>' .  nl2br($row["store_id"]) . '</p>';
+                                            <label for="topic" class="control-label">Name</label>';
+        $output .=                                  '<input type="text" class="form-control" id="item_name" value="$row['name']">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
 
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">DateTime</label>';
-        $output .=                                  '<p>' .  nl2br($row["datetime"]) . '</p>';
+        $output .=                                  '<input type="text" class="form-control" id="datetime" value="$row['datetime']">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
-
-        //repeat form starts
-        $output .= '                 <div class="form-group">
-                                            <label for="topic" class="control-label">Topic</label>';
-        $output .=                                  '<p>' . $row["topic"] . '</p>';
-        $output .=                  '</div><!-- form-group-->';
-
-        //repeat form starts
-        $output .= '                 <div class="form-group">
-                                            <label for="topic" class="control-label">Name</label>';
-        $output .=                                  '<p>' . $row["r_name"] . '</p>';
-        $output .=                  '</div><!-- form-group-->';
-        //repeat form ends
-
-
-        //repeat form starts
-        $output .= '                 <div class="form-group">
-                                            <label for="topic" class="control-label">Email</label>';
-        $output .=                                  '<p>' . $row["email"] . '</p>';
-        $output .=                  '</div><!-- form-group-->';
-        //repeat form ends
-
-        //repeat form starts
-        $output .= '                 <div class="form-group">
-                                            <label for="topic" class="control-label">Message</label>';
-        $output .=                                  '<p>' .  nl2br($row["message"]) . '</p>';
-        $output .=                  '</div><!-- form-group-->';
-        //repeat form ends
-
-
-
 
         $output .= '            </div> <!-- modal-body--->';
         $output .= '        </div> <!-- modal-content--->';

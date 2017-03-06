@@ -184,7 +184,7 @@ function viewReport(str) {
             $('#view_report_modal').modal('show');
         }
     };
-    xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/reportiew-report./vphp?q=" + str, true);
+    xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/report/view-report.php?q=" + str, true);
     xmlhttp.send();
 }
 
@@ -207,6 +207,24 @@ function createItem() {
     xmlhttp.send();
 }
 
+//ajax_call function to edit items
+function editItem(str) {
+
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else { // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("crud_pop_up").innerHTML = this.responseText;
+            $('#edit_item_modal').modal('show');
+        }
+    };
+    xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/item/edit-item.php?q=" + str, true);
+    xmlhttp.send();
+}
 
 
 

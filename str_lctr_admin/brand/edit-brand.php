@@ -6,7 +6,7 @@ require_once '../../supports/initialize.php';
 <?php
 $q = $_GET['q'];
 
-$sql= "SELECT * FROM item WHERE id = $q";
+$sql= "SELECT * FROM brand WHERE id = $q";
 
 $result = mysqli_query($conn,$sql);
 
@@ -14,12 +14,12 @@ if ($result->num_rows > 0) {
     
     while($row = mysqli_fetch_assoc($result)) {
 
-        $output = '<div class="modal fade" id="edit_item_modal" tabindex="-1" role="dialog" aria-labelledby="edit_item_modal">';
+        $output = '<div class="modal fade" id="edit_brand_modal" tabindex="-1" role="dialog" aria-labelledby="edit_brand_modal">';
         $output .= '   <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                  <div class="modal-header">
                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title" id="edit_item_modal">Edit Item</h4>
+                                            <h4 class="modal-title" id="edit_brand_modal">Edit Brand</h4>
                                  </div> <!-- modal-header -->
                     ';
         $output .= '            <div class="modal-body">';
@@ -41,8 +41,8 @@ if ($result->num_rows > 0) {
 
         //repeat form starts
         $output .= '                 <div class="form-group">
-                                            <label for="topic" class="control-label">DateTime</label>';
-        $output .=                                  '<input type="text" class="form-control" id="datetime" value="' . $row["datetime"] .'">';
+                                            <label for="topic" class="control-label">Item ID</label>';
+        $output .=                                  '<input type="text" class="form-control" id="item_id" value="' . $row["item_id"] .'">';
 
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends

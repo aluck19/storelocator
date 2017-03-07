@@ -7,6 +7,21 @@ session_start();
 require_once '../assets/layouts/admin_header.php';
 ?>
 
+<?php
+function getItem($item_id) {
+    
+    $smartphone = "Smartphone";
+    $laptop = "Laptop";
+
+    if ($item_id == 1) {
+        return $laptop;
+    } else if ($item_id == 2){
+        return $smartphone;
+    }
+}
+?>
+
+
    
     <body id="body_wrapper">
     <div class="container ">
@@ -81,8 +96,8 @@ require_once '../assets/layouts/admin_header.php';
                     <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active"><a href="#admin_reports" aria-controls="admin_report" role="tab" data-toggle="tab">Reports</a></li>
                         <li role="presentation"><a href="#admin_items" aria-controls="admin_items" role="tab" data-toggle="tab">Items</a></li>
-                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Brand</a></li>
-                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Items</a></li>
+                        <li role="presentation"><a href="#admin_brands" aria-controls="admin_brands" role="tab" data-toggle="tab">Brands</a></li>
+                        <li role="presentation"><a href="#admin_stores" aria-controls="admin_stores" role="tab" data-toggle="tab">Stores</a></li>
                     </ul>
 
                     <!-- Tab panes -->
@@ -186,8 +201,98 @@ require_once '../assets/layouts/admin_header.php';
 
 
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="messages">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-                        <div role="tabpanel" class="tab-pane" id="settings">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..</div>
+                        <div role="tabpanel" class="tab-pane" id="admin_brands">
+
+                            <button type="button"  onclick="createBrand()" id="create_brand" class="btn btn-primary">Create</button>
+
+                            <div>
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Item</th>
+                                        <th>Edit</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    <?php
+
+                                    $s_report  = "SELECT * FROM brand ";
+                                    $reports = mysqli_query($conn, $s_report);
+
+                                    if ($reports->num_rows > 0) {
+                                        while ($row = $reports->fetch_assoc()) {
+                                            $output = '<tr>';
+                                            $output .= '<td id="r_id">' .$row["id"] . '</td>';
+                                            $output .= '<td>' .$row["name"] . '</td>';
+                                            $output .= '<td>' . getItem($row["item_id"]) . '</td>';
+
+                                            $output .= '<td>' . '<button type="button"  onclick="editBrand(' . $row["id"]. ')" id="edit_brand" class="btn btn-primary">Edit</button>'. '</td>';
+                                            $output .= '<td>' . '<button type="button"  onclick="deleteBrand(' . $row["id"]. ')" id="delete_brand" class="btn btn-primary">Delete</button>'. '</td>';
+
+                                            echo $output;
+
+                                        }
+                                    }else {
+
+                                    }
+                                    ?>
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="admin_stores">
+
+                            <button type="button"  onclick="createStore()" id="create_store" class="btn btn-primary">Create</button>
+
+                            <div>
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>View </th>
+                                        <th>Edit</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    <?php
+
+                                    $s_report  = "SELECT * FROM store ";
+                                    $reports = mysqli_query($conn, $s_report);
+
+                                    if ($reports->num_rows > 0) {
+                                        while ($row = $reports->fetch_assoc()) {
+                                            $output = '<tr>';
+                                            $output .= '<td id="r_id">' .$row["id"] . '</td>';
+                                            $output .= '<td>' .$row["name"] . '</td>';
+
+                                            $output .= '<td>' . '<button type="button"  onclick="viewStore(' . $row["id"]. ')" id="show_store" class="btn btn-primary">Details</button>'. '</td>';
+                                            $output .= '<td>' . '<button type="button"  onclick="editStore(' . $row["id"]. ')" id="edit_store" class="btn btn-primary">Edit</button>'. '</td>';
+                                            $output .= '<td>' . '<button type="button"  onclick="deleteStore(' . $row["id"]. ')" id="delete_store" class="btn btn-primary">Delete</button>'. '</td>';
+
+                                            echo $output;
+
+                                        }
+                                    }else {
+
+                                    }
+                                    ?>
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 

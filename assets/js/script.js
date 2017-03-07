@@ -226,5 +226,59 @@ function editItem(str) {
     xmlhttp.send();
 }
 
+function editBrand(str) {
+
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else { // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("crud_pop_up").innerHTML = this.responseText;
+            $('#edit_brand_modal').modal('show');
+        }
+    };
+    xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/brand/edit-brand.php?q=" + str, true);
+    xmlhttp.send();
+}
+
+function editStore(str) {
+
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else { // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("crud_pop_up").innerHTML = this.responseText;
+            $('#edit_store_modal').modal('show');
+        }
+    };
+    xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/store/edit-store.php?q=" + str, true);
+    xmlhttp.send();
+}
+
+function viewStore(str) {
+
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else { // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("crud_pop_up").innerHTML = this.responseText;
+            $('#view_store_modal').modal('show');
+        }
+    };
+    xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/store/view-store.php?q=" + str, true);
+    xmlhttp.send();
+}
+
 
 

@@ -74,7 +74,7 @@ require_once '../assets/layouts/admin_header.php';
 
         <div class="row">
 
-            <div class="col-sm-12">
+            <div class="col-sm-4 col-sm-offset-4">
                 <h4>Enter username and password.</h4>
 
                 <form id="myForm" action="index.php" method="post" autocomplete="off">

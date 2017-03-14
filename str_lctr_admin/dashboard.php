@@ -125,7 +125,7 @@ function getItem($item_id) {
 
                                     if ($reports->num_rows > 0) {
                                         while ($row = $reports->fetch_assoc()) {
-                                            $output = '<tr>';
+                                            $output  = '<tr>';
                                             $output .= '<td id="r_id">' .$row["id"] . '</td>';
                                             $output .= '<td>' .$row["store_id"] . '</td>';
                                             $output .= '<td>' .$row["topic"] . '</td>';
@@ -184,8 +184,6 @@ function getItem($item_id) {
                                             $output .= '<td>' . '<button type="button"  onclick="deleteItem(' . $row["id"]. ')" id="delete_item" class="btn btn-primary">Delete</button>'. '</td>';
 
                                             echo $output;
-
-
 
                                         }
                                     }else {

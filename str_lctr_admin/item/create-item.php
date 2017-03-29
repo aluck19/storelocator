@@ -13,7 +13,6 @@ if(isset($_POST["i_name"])){
     $result = mysqli_query($conn, $query);
 
     if ($result === true) {
-
         echo "New item created successfully!";
     }else {
         echo "Error: " . $query . "<br>" . mysqli_error($conn);

@@ -4,6 +4,33 @@ require_once '../../supports/initialize.php';
 ?>
 
 <?php
+
+if(isset($_POST["s_name"])){
+
+    $q = mysqli_real_escape_string($conn, $_POST['id']);
+    $name = mysqli_real_escape_string($conn,$_POST['s_name']);
+    $type = mysqli_real_escape_string($conn,$_POST['s_type']);
+    $landline = mysqli_real_escape_string($conn,$_POST['s_landline']);
+    $mobile = mysqli_real_escape_string($conn,$_POST['s_mobile']);
+    $address = mysqli_real_escape_string($conn,$_POST['s_address']);
+    $website = mysqli_real_escape_string($conn,$_POST['s_website']);
+    $district = mysqli_real_escape_string($conn,$_POST['s_district']);
+    $lat = mysqli_real_escape_string($conn,$_POST['s_lat']);
+    $lon = mysqli_real_escape_string($conn,$_POST['s_lon']);
+    $brand_id = mysqli_real_escape_string($conn, $_POST['b_id']);
+    
+    $query = "UPDATE store SET name = '{$name}', type = '{$type}', landline = '{$landline}', mobile = '{$mobile}', 
+    address = '{$address}', website = '{$website}', lat = '{$lat}', lon = '{$lon}', brand_id = '{$brand_id}' WHERE id = $q ";
+
+    $result = mysqli_query($conn, $query);
+
+    if ($result === true) {
+        echo "Store info edited successfully!";
+    }else {
+        echo "Error: " . $query . "<br>" . mysqli_error($conn);
+    }
+} else {
+
 $q = $_GET['q'];
 
 $sql= "SELECT * FROM store WHERE id = $q";
@@ -35,6 +62,7 @@ if ($result->num_rows > 0) {
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Name</label>';
+        $output .=                                  '<input type="hidden" id="store_id" value="' . $row["id"] . '">';
         $output .=                                  '<input type="text" class="form-control" id="store_name" value="' . $row["name"] . '">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
@@ -79,7 +107,7 @@ if ($result->num_rows > 0) {
 
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Brand ID </label>';
-        $output .=                                  '<input type="number" class="form-control" id="" value="' . $row["brand_id"] .'">';
+        $output .=                                  '<input type="number" class="form-control" id="brand_id" value="' . $row["brand_id"] .'">';
         $output .=                  '</div><!-- form-group-->';
 
         //repeat form ends
@@ -87,7 +115,7 @@ if ($result->num_rows > 0) {
 
         $output .= '            <div class="modal-footer">';
         $output .= '            <button type="button" class="btn btn-defaut" data-dismiss="modal">Close</button>';
-        $output .= '            <button type="button" class="btn btn-primary"> Edit </button>';
+        $output .= '            <button type="button" onclick="editStoreA();" class="btn btn-primary"> Edit </button>';
         $output .= '        </div> <!-- modal-footer--->';
         
         $output .= '        </div> <!-- modal-content--->';
@@ -101,6 +129,6 @@ else {
     echo $q;
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-
+}
 mysqli_close($conn);
 ?>

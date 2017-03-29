@@ -36,6 +36,7 @@ if(isset($_POST["b_name"])){
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Name</label>';
+        $output .=                                  '<input type="hidden" id="b_id" name="b_id">';
         $output .=                                  '<input type="text" class="form-control" id="b_name" name="b_name" required="">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends

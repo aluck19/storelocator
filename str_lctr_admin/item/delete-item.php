@@ -12,7 +12,6 @@ $q = $_GET['q'];
         if ($result === true) {
 
             echo "<script> alert('Item deleted successfully!');";
-            header ('Location: http://localhost/storelocator/str_lctr_admin/dashboard.php');
         } else {
             echo "Error: " . $query . "<br>" . mysqli_error($conn);
         }

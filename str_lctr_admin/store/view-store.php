@@ -62,7 +62,7 @@ if ($result->num_rows > 0) {
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Address</label>';
-        $output .=                                  '<p>' . nl2br($row["email"]) . '</p>';
+        $output .=                                  '<p>' . nl2br($row["address"]) . '</p>';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
 

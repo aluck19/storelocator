@@ -139,6 +139,8 @@ function createItemA() {
                 success: function(result){
                     alert(result);
                     $('#create_item_modal').modal('hide');
+                    location.reload();
+                        $('#tabs').tabs({ active: 1 });
                     // initializes and invokes show immediately
                 }
             });
@@ -170,6 +172,7 @@ function createBrandA() {
                 success: function(result){
                     alert(result);
                     $('#create_brand_modal').modal('hide');
+                    location.reload();
                     // initializes and invokes show immediately
                 }
             });
@@ -187,11 +190,11 @@ function createStoreA() {
         var district = $('#s_district').val();
         var lat = $('#s_lat').val();
         var lon = $('#s_lon').val();
-        var id = $('#b_id').val();
+        var id = $('#s_id').val();
         
         // Returns successful data submission message when the entered information is stored in push_files.
-        var dataString = 'b_name=' + name + '&b_id=' + id + '&s_type=' + type + '&s_landline=' + landline + '&s_mobile=' 
-        + mobile + '&s_address=' + address + '&s_website=' + website + '&district=' + district + '&s_lat=' + lat + '&s_lon=' + lon;
+        var dataString = 's_name=' + name + '&s_id=' + id + '&s_type=' + type + '&s_landline=' + landline + '&s_mobile=' 
+        + mobile + '&s_address=' + address + '&s_website=' + website + '&s_district=' + district + '&s_lat=' + lat + '&s_lon=' + lon;
 
         if (name == '' || id == '')
         {
@@ -209,6 +212,7 @@ function createStoreA() {
                 success: function(result){
                     alert(result);
                     $('#create_store_modal').modal('hide');
+                    location.reload();
                     // initializes and invokes show immediately
                 }
             });
@@ -356,6 +360,8 @@ function deleteItem(str) {
             if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("crud_pop_up").innerHTML = this.responseText;
                 $('#delete_item_modal').modal('show');
+                location.reload();
+                $('#tabs').tabs('#admin_items');
             }
         };
         xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/item/delete-item.php?q=" + str, true);
@@ -378,6 +384,7 @@ function deleteBrand(str) {
             if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("crud_pop_up").innerHTML = this.responseText;
                 $('#delete_brand_modal').modal('show');
+                location.reload();
             }
         };
         xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/brand/delete-brand.php?q=" + str, true);
@@ -400,6 +407,7 @@ function deleteStore(str) {
             if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("crud_pop_up").innerHTML = this.responseText;
                 $('#delete_store_modal').modal('show');
+                location.reload();
             }
         };
         xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/store/delete-store.php?q=" + str, true);
@@ -426,6 +434,38 @@ function editItem(str) {
     xmlhttp.send();
 }
 
+function editItemA() {
+        var name = $("#i_name").val();
+        var id = $("#i_id").val();
+        
+        // Returns successful data submission message when the entered information is stored in push_files.
+        var dataString = 'i_name=' + name + '&i_id=' + id;
+
+        if (name == '')
+        {
+            alert("Please fill all the form fields!");
+            //console.log("Error");
+        }
+        else
+        {
+            // AJAX Code To Submit Form.
+            $.ajax({
+                type: "POST",
+                url: "http://localhost/storelocator/str_lctr_admin/item/edit-item.php",
+                data: dataString,
+                cache: false,
+                success: function(result){
+                    alert(result);
+                    $('#create_item_modal').modal('hide');
+                    location.reload();
+                    // initializes and invokes show immediately
+                }
+            });
+        }
+        return false;
+}
+
+
 function editBrand(str) {
 
     if (window.XMLHttpRequest) {
@@ -444,6 +484,38 @@ function editBrand(str) {
     xmlhttp.send();
 }
 
+function editBrandA() {
+        var id = $("#b_id").val();
+        var name = $("#brand_name").val();
+        var item_id = $("#item_id").val();
+        
+        // Returns successful data submission message when the entered information is stored in push_files.
+        var dataString = 'id=' + id + '&b_name=' + name + '&i_id=' + item_id;
+
+        if (name == '' || item_id == '')
+        {
+            alert("Please fill all the form fields!");
+            //console.log("Error");
+        }
+        else
+        {
+            // AJAX Code To Submit Form.
+            $.ajax({
+                type: "POST",
+                url: "http://localhost/storelocator/str_lctr_admin/brand/edit-brand.php",
+                data: dataString,
+                cache: false,
+                success: function(result){
+                    alert(result);
+                    $('#create_item_modal').modal('hide');
+                    location.reload();
+                    // initializes and invokes show immediately
+                }
+            });
+        }
+        return false;
+}
+
 function editStore(str) {
 
     if (window.XMLHttpRequest) {
@@ -460,6 +532,48 @@ function editStore(str) {
     };
     xmlhttp.open("GET", "http://localhost/storelocator/str_lctr_admin/store/edit-store.php?q=" + str, true);
     xmlhttp.send();
+}
+
+function editStoreA() {
+        var name = $("#store_name").val();
+        var type = $('#store_type').val();
+        var landline = $('#store_landline').val();
+        var mobile = $('#store_mobile').val();
+        var address = $('#store_address').val();
+        var website = $('#store_website').val();
+        var district = $('#store_district').val();
+        var lat = $('#store_lat').val();
+        var lon = $('#store_lon').val();
+        var q = $('#store_id').val();
+        var id = $('#brand_id').val();
+        
+        // Returns successful data submission message when the entered information is stored in push_files.
+        var dataString = 's_name=' + name + '&id=' + q + '&s_type=' + type + '&s_landline=' + landline + '&s_mobile=' 
+        + mobile + '&s_address=' + address + '&s_website=' + website + '&s_district=' + district + '&s_lat=' + lat 
+        + '&s_lon=' + lon + '&b_id=' + id; 
+
+        if (name == '' || id == '')
+        {
+            alert("Please fill all the form fields!");
+            //console.log("Error");
+        }
+        else
+        {
+            // AJAX Code To Submit Form.
+            $.ajax({
+                type: "POST",
+                url: "http://localhost/storelocator/str_lctr_admin/store/edit-store.php",
+                data: dataString,
+                cache: false,
+                success: function(result){
+                    alert(result);
+                    $('#create_item_modal').modal('hide');
+                    location.reload();
+                    // initializes and invokes show immediately
+                }
+            });
+        }
+        return false;
 }
 
 function viewStore(str) {

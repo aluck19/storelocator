@@ -92,7 +92,7 @@ function getItem($item_id) {
 
 
 
-                <!-- Nav tabs --><div class="card">
+                <!-- Nav tabs --><div class="card" id="tabs">
                     <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active"><a href="#admin_reports" aria-controls="admin_report" role="tab" data-toggle="tab">Reports</a></li>
                         <li role="presentation"><a href="#admin_items" aria-controls="admin_items" role="tab" data-toggle="tab">Items</a></li>

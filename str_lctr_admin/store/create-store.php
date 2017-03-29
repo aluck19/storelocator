@@ -5,7 +5,7 @@ require_once '../../supports/initialize.php';
 <?php
 
 if(isset($_POST["s_name"])) {
-    $name = mysqli_real_escape_string($conn,$_POST['b_name']);
+    $name = mysqli_real_escape_string($conn,$_POST['s_name']);
     $type = mysqli_real_escape_string($conn,$_POST['s_type']);
     $landline = mysqli_real_escape_string($conn,$_POST['s_landline']);
     $mobile = mysqli_real_escape_string($conn,$_POST['s_mobile']);
@@ -14,9 +14,10 @@ if(isset($_POST["s_name"])) {
     $district = mysqli_real_escape_string($conn,$_POST['s_district']);
     $lat = mysqli_real_escape_string($conn,$_POST['s_lat']);
     $lon = mysqli_real_escape_string($conn,$_POST['s_lon']);
+    $brand_id = mysqli_real_escape_string($conn, $_POST['s_id']);
 
-    $query  = "INSERT INTO store (name, type, landline, mobile, address, website, district, lat, lon) ";
-    $query .= " VALUES ('$name', '$type', '$landline', '$mobile', '$address', '$district', '$lat', '$lon') ";
+    $query  = "INSERT INTO store (name, type, landline, mobile, address, website, district, lat, lon, brand_id) ";
+    $query .= " VALUES ('$name', '$type', '$landline', '$mobile', '$address', '$website', '$district', '$lat', '$lon' , '$brand_id') ";
 
     $result = mysqli_query($conn, $query);
 
@@ -107,7 +108,7 @@ if(isset($_POST["s_name"])) {
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Brand ID</label>';
-        $output .=                                  '<input type="number" class="form-control" id="b_id" name="b_id" required="">';
+        $output .=                                  '<input type="number" class="form-control" id="s_id" name="s_id" required="">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
 

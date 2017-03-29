@@ -4,6 +4,24 @@ require_once '../../supports/initialize.php';
 ?>
 
 <?php
+
+if(isset($_POST["b_name"])){
+
+    $q = mysqli_real_escape_string($conn, $_POST['id']);
+    $name = mysqli_real_escape_string($conn,$_POST['b_name']);
+    $item_id = mysqli_real_escape_string($conn,$_POST['i_id']);
+    
+    $query = "UPDATE brand SET name = '{$name}', item_id = '{$item_id}' WHERE id = $q ";
+
+    $result = mysqli_query($conn, $query);
+
+    if ($result === true) {
+        echo "Brand info edited successfully!";
+    }else {
+        echo "Error: " . $query . "<br>" . mysqli_error($conn);
+    }
+} else {
+
 $q = $_GET['q'];
 
 $sql= "SELECT * FROM brand WHERE id = $q";
@@ -35,7 +53,8 @@ if ($result->num_rows > 0) {
         //repeat form starts
         $output .= '                 <div class="form-group">
                                             <label for="topic" class="control-label">Name</label>';
-        $output .=                                  '<input type="text" class="form-control" id="item_name" value="' . $row["name"] . '">';
+        $output .=                                  '<input type="hidden" id="b_id" value="' . $row["id"] . '">';
+        $output .=                                  '<input type="text" class="form-control" id="brand_name" value="' . $row["name"] . '">';
         $output .=                  '</div><!-- form-group-->';
         //repeat form ends
 
@@ -50,7 +69,7 @@ if ($result->num_rows > 0) {
 
         $output .= '            <div class="modal-footer">';
         $output .= '            <button type="button" class="btn btn-defaut" data-dismiss="modal">Close</button>';
-        $output .= '            <button type="button" class="btn btn-primary"> Edit </button>';
+        $output .= '            <button type="button" onclick="editBrandA();" class="btn btn-primary"> Edit </button>';
         $output .= '        </div> <!-- modal-footer--->';
         
         $output .= '        </div> <!-- modal-content--->';
@@ -64,6 +83,6 @@ else {
     echo $q;
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-
+}
 mysqli_close($conn);
 ?>

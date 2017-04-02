@@ -105,7 +105,7 @@ function getItem($item_id) {
 
 
                             <div>
-                                <table class="table table-striped" id="table">
+                                <table class="table table-striped" id="tableReport" cellspacing="0" width="100%">
                                     <thead>
                                     <tr>
                                         <th>#</th>
@@ -154,10 +154,10 @@ function getItem($item_id) {
 
                         <div role="tabpanel" class="tab-pane" id="admin_items">
 
-                            <button type="button"  onclick="createItem()" id="create_item" class="btn btn-primary">Create</button>
+                            <button type="button"  onclick="createItem()" id="create_item" class="btn btn-primary">Create</button><br><br>
 
                             <div>
-                                <table class="table table-striped" id="table">
+                                <table class="table table-striped" id="tableItem" cellspacing="0" width="100%">
                                     <thead>
                                     <tr>
                                         <th>#</th>
@@ -200,10 +200,10 @@ function getItem($item_id) {
                         </div>
                         <div role="tabpanel" class="tab-pane" id="admin_brands">
 
-                            <button type="button"  onclick="createBrand()" id="create_brand" class="btn btn-primary">Create</button>
+                            <button type="button"  onclick="createBrand()" id="create_brand" class="btn btn-primary">Create</button><br><br>
 
                             <div>
-                                <table class="table table-striped" id="table">
+                                <table class="table table-striped" id="tableBrand" cellspacing="0" width="100%">
                                     <thead>
                                     <tr>
                                         <th>#</th>
@@ -247,10 +247,10 @@ function getItem($item_id) {
                         </div>
                         <div role="tabpanel" class="tab-pane" id="admin_stores">
 
-                            <button type="button"  onclick="createStore()" id="create_store" class="btn btn-primary">Create</button>
+                            <button type="button"  onclick="createStore()" id="create_store" class="btn btn-primary">Create</button><br><br>
 
                             <div>
-                                <table class="table table-striped" id="table">
+                                <table class="table table-striped" id="tableStores" cellspacing="0" width="100%">
                                     <thead>
                                     <tr>
                                         <th>#</th>

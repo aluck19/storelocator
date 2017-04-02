@@ -53,10 +53,14 @@
 	<script src="../assets/js/html5shiv.min.js"></script>
 	<script src="../assets/js/respond.min.js"></script>
 	<![endif]-->
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#table').DataTable();
-    });
-</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        $('#tableReport').DataTable();
+	        $('#tableItem').DataTable();
+	        $('#tableBrand').DataTable();
+	        $('#tableStores').DataTable();
+		});
+
+	</script>
 
 </head>

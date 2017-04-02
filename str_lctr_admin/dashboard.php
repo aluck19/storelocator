@@ -21,7 +21,6 @@ function getItem($item_id) {
 }
 ?>
 
-
    
     <body id="body_wrapper">
     <div class="container ">
@@ -106,7 +105,7 @@ function getItem($item_id) {
 
 
                             <div>
-                                <table class="table table-striped">
+                                <table class="table table-striped" id="table">
                                     <thead>
                                     <tr>
                                         <th>#</th>
@@ -158,7 +157,7 @@ function getItem($item_id) {
                             <button type="button"  onclick="createItem()" id="create_item" class="btn btn-primary">Create</button>
 
                             <div>
-                                <table class="table table-striped">
+                                <table class="table table-striped" id="table">
                                     <thead>
                                     <tr>
                                         <th>#</th>
@@ -204,7 +203,7 @@ function getItem($item_id) {
                             <button type="button"  onclick="createBrand()" id="create_brand" class="btn btn-primary">Create</button>
 
                             <div>
-                                <table class="table table-striped">
+                                <table class="table table-striped" id="table">
                                     <thead>
                                     <tr>
                                         <th>#</th>
@@ -251,7 +250,7 @@ function getItem($item_id) {
                             <button type="button"  onclick="createStore()" id="create_store" class="btn btn-primary">Create</button>
 
                             <div>
-                                <table class="table table-striped">
+                                <table class="table table-striped" id="table">
                                     <thead>
                                     <tr>
                                         <th>#</th>

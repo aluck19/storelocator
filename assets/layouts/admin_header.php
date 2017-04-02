@@ -40,11 +40,23 @@
 
 	<script src="../assets/semantic/dist/semantic.min.js" type="text/javascript" ></script>
 
+	<!-- DataTables JS/CSS -->
+		<link rel="stylesheet" type="text/css" href="../assets/dataTables/jquery.dataTables.css">
+		<link rel="stylesheet" type="text/css" href="../assets/dataTables/dataTables.tableTools.css">
+
+		<script type="text/javascript" language="javascript" src="../assets/dataTables/jquery.dataTables.js"></script>
+		<script type="text/javascript" language="javascript" src="../assets/dataTables/dataTables.tableTools.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 	<script src="../assets/js/html5shiv.min.js"></script>
 	<script src="../assets/js/respond.min.js"></script>
 	<![endif]-->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#table').DataTable();
+    });
+</script>
 
 </head>
